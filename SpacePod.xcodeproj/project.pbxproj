@@ -11,6 +11,8 @@
 		EF0B5AE4275EEEDB0007329F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AE3275EEEDB0007329F /* ContentView.swift */; };
 		EF0B5AE6275EEEDD0007329F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0B5AE5275EEEDD0007329F /* Assets.xcassets */; };
 		EF0B5AE9275EEEDD0007329F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */; };
+		EF0B5AF0275EFD6A0007329F /* PodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AEF275EFD6A0007329F /* PodModel.swift */; };
+		EF0B5AF2275EFD810007329F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AF1275EFD810007329F /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EF0B5AE3275EEEDB0007329F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF0B5AE5275EEEDD0007329F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF0B5AEF275EFD6A0007329F /* PodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodModel.swift; sourceTree = "<group>"; };
+		EF0B5AF1275EFD810007329F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				EF0B5AE1275EEEDB0007329F /* SpacePodApp.swift */,
 				EF0B5AE3275EEEDB0007329F /* ContentView.swift */,
+				EF0B5AEF275EFD6A0007329F /* PodModel.swift */,
 				EF0B5AE5275EEEDD0007329F /* Assets.xcassets */,
 				EF0B5AE7275EEEDD0007329F /* Preview Content */,
+				EF0B5AF1275EFD810007329F /* Network.swift */,
 			);
 			path = SpacePod;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				EF0B5AE4275EEEDB0007329F /* ContentView.swift in Sources */,
 				EF0B5AE2275EEEDB0007329F /* SpacePodApp.swift in Sources */,
+				EF0B5AF2275EFD810007329F /* Network.swift in Sources */,
+				EF0B5AF0275EFD6A0007329F /* PodModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
