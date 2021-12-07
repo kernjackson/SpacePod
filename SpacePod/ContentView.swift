@@ -1,13 +1,25 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var text = "Hello, space!"
+    @State var pod = Pod.default
     var body: some View {
-        Text(text)
-            .padding()
-            .task {
-                text = await Network().getString()
+        List {
+            AsyncImage(url: pod.url)
+                .frame(height: 280)
+                .listRowInsets(.init())
+            Text(pod.title)
+                .font(.title)
+                .bold()
+                .padding(.vertical)
+            Label(pod.copyright, systemImage: "c.circle.fill")
+            Label(pod.date, systemImage: "calendar")
+            Text(pod.explanation)
+                .padding(.vertical)
+        }.task {
+            if let response = await Network().getPod() {
+                pod = response
             }
+        }
     }
 }
 
