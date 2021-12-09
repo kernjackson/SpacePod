@@ -2,7 +2,7 @@ import Foundation
 
 class Network {
 
-    let url = URL(string: "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2021-12-02")!
+    let url = URL(string: "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2021-11-07")!
 
     func getString() async -> String {
         do {

@@ -11,7 +11,9 @@ struct ContentView: View {
                 .font(.title)
                 .bold()
                 .padding(.vertical)
-            Label(pod.copyright, systemImage: "c.circle.fill")
+            if let copyright = pod.copyright {
+                Label(copyright, systemImage: "c.circle.fill")
+            }
             Label(pod.date, systemImage: "calendar")
             Text(pod.explanation)
                 .padding(.vertical)
