@@ -1,0 +1,5 @@
+{
+    "code": 400,
+    "msg": "Date must be between Jun 16, 1995 and Dec 13, 2021.",
+    "service_version": "v1"
+}

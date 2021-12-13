@@ -13,6 +13,18 @@
 		EF0B5AE9275EEEDD0007329F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */; };
 		EF0B5AF0275EFD6A0007329F /* PodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AEF275EFD6A0007329F /* PodModel.swift */; };
 		EF0B5AF2275EFD810007329F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AF1275EFD810007329F /* Network.swift */; };
+		EF7116402766C662002D5287 /* get-video.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116342766C661002D5287 /* get-video.json */; };
+		EF7116412766C662002D5287 /* 400-bad-request-1.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116352766C661002D5287 /* 400-bad-request-1.json */; };
+		EF7116422766C662002D5287 /* 400-bad-request-2.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116362766C661002D5287 /* 400-bad-request-2.json */; };
+		EF7116432766C662002D5287 /* 404-no-data.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116372766C661002D5287 /* 404-no-data.json */; };
+		EF7116442766C662002D5287 /* nasa.sh in Resources */ = {isa = PBXBuildFile; fileRef = EF7116382766C661002D5287 /* nasa.sh */; };
+		EF7116452766C662002D5287 /* 200-empty-explanation.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116392766C661002D5287 /* 200-empty-explanation.json */; };
+		EF7116462766C662002D5287 /* 403-api-key-missing.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163A2766C661002D5287 /* 403-api-key-missing.json */; };
+		EF7116472766C662002D5287 /* 403-api-key-invalid.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163B2766C662002D5287 /* 403-api-key-invalid.json */; };
+		EF7116482766C662002D5287 /* get-pod.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163C2766C662002D5287 /* get-pod.json */; };
+		EF7116492766C662002D5287 /* get-random-pods.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163D2766C662002D5287 /* get-random-pods.json */; };
+		EF71164A2766C662002D5287 /* get-pods.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163E2766C662002D5287 /* get-pods.json */; };
+		EF71164B2766C662002D5287 /* 200-no-copyright.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163F2766C662002D5287 /* 200-no-copyright.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +35,18 @@
 		EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF0B5AEF275EFD6A0007329F /* PodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodModel.swift; sourceTree = "<group>"; };
 		EF0B5AF1275EFD810007329F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		EF7116342766C661002D5287 /* get-video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-video.json"; sourceTree = "<group>"; };
+		EF7116352766C661002D5287 /* 400-bad-request-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "400-bad-request-1.json"; sourceTree = "<group>"; };
+		EF7116362766C661002D5287 /* 400-bad-request-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "400-bad-request-2.json"; sourceTree = "<group>"; };
+		EF7116372766C661002D5287 /* 404-no-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "404-no-data.json"; sourceTree = "<group>"; };
+		EF7116382766C661002D5287 /* nasa.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = nasa.sh; sourceTree = "<group>"; };
+		EF7116392766C661002D5287 /* 200-empty-explanation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-empty-explanation.json"; sourceTree = "<group>"; };
+		EF71163A2766C661002D5287 /* 403-api-key-missing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "403-api-key-missing.json"; sourceTree = "<group>"; };
+		EF71163B2766C662002D5287 /* 403-api-key-invalid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "403-api-key-invalid.json"; sourceTree = "<group>"; };
+		EF71163C2766C662002D5287 /* get-pod.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-pod.json"; sourceTree = "<group>"; };
+		EF71163D2766C662002D5287 /* get-random-pods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-random-pods.json"; sourceTree = "<group>"; };
+		EF71163E2766C662002D5287 /* get-pods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-pods.json"; sourceTree = "<group>"; };
+		EF71163F2766C662002D5287 /* 200-no-copyright.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-copyright.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +79,7 @@
 		EF0B5AE0275EEEDB0007329F /* SpacePod */ = {
 			isa = PBXGroup;
 			children = (
+				EF7116332766C654002D5287 /* Payloads */,
 				EF0B5AE1275EEEDB0007329F /* SpacePodApp.swift */,
 				EF0B5AE3275EEEDB0007329F /* ContentView.swift */,
 				EF0B5AEF275EFD6A0007329F /* PodModel.swift */,
@@ -71,6 +96,25 @@
 				EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF7116332766C654002D5287 /* Payloads */ = {
+			isa = PBXGroup;
+			children = (
+				EF7116392766C661002D5287 /* 200-empty-explanation.json */,
+				EF71163F2766C662002D5287 /* 200-no-copyright.json */,
+				EF7116352766C661002D5287 /* 400-bad-request-1.json */,
+				EF7116362766C661002D5287 /* 400-bad-request-2.json */,
+				EF71163B2766C662002D5287 /* 403-api-key-invalid.json */,
+				EF71163A2766C661002D5287 /* 403-api-key-missing.json */,
+				EF7116372766C661002D5287 /* 404-no-data.json */,
+				EF71163C2766C662002D5287 /* get-pod.json */,
+				EF71163E2766C662002D5287 /* get-pods.json */,
+				EF71163D2766C662002D5287 /* get-random-pods.json */,
+				EF7116342766C661002D5287 /* get-video.json */,
+				EF7116382766C661002D5287 /* nasa.sh */,
+			);
+			path = Payloads;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +175,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7116452766C662002D5287 /* 200-empty-explanation.json in Resources */,
+				EF71164A2766C662002D5287 /* get-pods.json in Resources */,
+				EF7116422766C662002D5287 /* 400-bad-request-2.json in Resources */,
+				EF7116402766C662002D5287 /* get-video.json in Resources */,
 				EF0B5AE9275EEEDD0007329F /* Preview Assets.xcassets in Resources */,
+				EF7116472766C662002D5287 /* 403-api-key-invalid.json in Resources */,
+				EF7116492766C662002D5287 /* get-random-pods.json in Resources */,
+				EF7116412766C662002D5287 /* 400-bad-request-1.json in Resources */,
 				EF0B5AE6275EEEDD0007329F /* Assets.xcassets in Resources */,
+				EF7116482766C662002D5287 /* get-pod.json in Resources */,
+				EF7116442766C662002D5287 /* nasa.sh in Resources */,
+				EF71164B2766C662002D5287 /* 200-no-copyright.json in Resources */,
+				EF7116462766C662002D5287 /* 403-api-key-missing.json in Resources */,
+				EF7116432766C662002D5287 /* 404-no-data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
