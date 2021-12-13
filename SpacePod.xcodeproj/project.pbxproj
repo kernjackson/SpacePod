@@ -25,6 +25,7 @@
 		EF7116492766C662002D5287 /* get-random-pods.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163D2766C662002D5287 /* get-random-pods.json */; };
 		EF71164A2766C662002D5287 /* get-pods.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163E2766C662002D5287 /* get-pods.json */; };
 		EF71164B2766C662002D5287 /* 200-no-copyright.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163F2766C662002D5287 /* 200-no-copyright.json */; };
+		EF71164D2766CB17002D5287 /* 429-over-rate-limit.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71164C2766CB17002D5287 /* 429-over-rate-limit.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		EF71163D2766C662002D5287 /* get-random-pods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-random-pods.json"; sourceTree = "<group>"; };
 		EF71163E2766C662002D5287 /* get-pods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-pods.json"; sourceTree = "<group>"; };
 		EF71163F2766C662002D5287 /* 200-no-copyright.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-copyright.json"; sourceTree = "<group>"; };
+		EF71164C2766CB17002D5287 /* 429-over-rate-limit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "429-over-rate-limit.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				EF71163B2766C662002D5287 /* 403-api-key-invalid.json */,
 				EF71163A2766C661002D5287 /* 403-api-key-missing.json */,
 				EF7116372766C661002D5287 /* 404-no-data.json */,
+				EF71164C2766CB17002D5287 /* 429-over-rate-limit.json */,
 				EF71163C2766C662002D5287 /* get-pod.json */,
 				EF71163E2766C662002D5287 /* get-pods.json */,
 				EF71163D2766C662002D5287 /* get-random-pods.json */,
@@ -187,6 +190,7 @@
 				EF7116482766C662002D5287 /* get-pod.json in Resources */,
 				EF7116442766C662002D5287 /* nasa.sh in Resources */,
 				EF71164B2766C662002D5287 /* 200-no-copyright.json in Resources */,
+				EF71164D2766CB17002D5287 /* 429-over-rate-limit.json in Resources */,
 				EF7116462766C662002D5287 /* 403-api-key-missing.json in Resources */,
 				EF7116432766C662002D5287 /* 404-no-data.json in Resources */,
 			);
