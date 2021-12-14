@@ -6,7 +6,24 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 
 [kern.micro.blog](https://kern.micro.blog)
 
-[YouTube Series](https://www.youtube.com/playlist?list=PLWebBadhYmf9NRIJXE_hBGTtyFwrxrXJ3)
+## Installments
+
+01. Project Overview [video](https://youtu.be/NLQhP-35sbY)
+02. Try Await URLSession [video](https://youtu.be/oQU5sept-QY)
+03. Pod Model with Paw and Ducky [video](https://youtu.be/2kADKAKf8xM)
+04. Pod Default [video](https://youtu.be/0V2ZKxlsGhs)
+05. MVP SwiftUI List View [video](https://youtu.be/KMz0HdD3DTI)
+06. AsyncImage [video](https://youtu.be/GogrWQ5blCU)
+07. Task GET Pod [video](https://youtu.be/dboEB8_qOUQ)
+08. Push to GitHub [video](https://youtu.be/2c9Mg6vyuco)
+09. Placeholder Icon with Bakery [video](https://youtu.be/j-CJ0YyPDUo)
+10. Optionals [video](https://youtu.be/WGtPWVPJgzc)
+11. Exploring the API with Paw [video](https://youtu.be/3V7MuFhMjgU)
+12. Json Payloads with Curl and Python [video](https://youtu.be/J7WI3QqQJEM)
+13. From JSON to Data to Pod with Tests [video](https://youtu.be/44ZOROuZJ9U)
+14. Adding a Read Me Markdown File [video](https://youtu.be/OSSodYCbdIY)
+
+[YouTube Playlist](https://www.youtube.com/playlist?list=PLWebBadhYmf9NRIJXE_hBGTtyFwrxrXJ3)
 
 ## Resources
 
