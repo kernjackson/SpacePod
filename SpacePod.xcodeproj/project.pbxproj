@@ -66,6 +66,7 @@
 		EFD4327C27680BEB00E3E658 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 		EFD4328F27680CB200E3E658 /* SpacePodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacePodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD4329127680CB200E3E658 /* SpacePodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePodTests.swift; sourceTree = "<group>"; };
+		EFD432982768237C00E3E658 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 				EF0B5AE5275EEEDD0007329F /* Assets.xcassets */,
 				EF0B5AE7275EEEDD0007329F /* Preview Content */,
 				EF0B5AF1275EFD810007329F /* Network.swift */,
+				EFD432982768237C00E3E658 /* README.md */,
 			);
 			path = SpacePod;
 			sourceTree = "<group>";
