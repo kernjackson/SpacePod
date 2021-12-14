@@ -26,7 +26,20 @@
 		EF71164A2766C662002D5287 /* get-pods.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163E2766C662002D5287 /* get-pods.json */; };
 		EF71164B2766C662002D5287 /* 200-no-copyright.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163F2766C662002D5287 /* 200-no-copyright.json */; };
 		EF71164D2766CB17002D5287 /* 429-over-rate-limit.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71164C2766CB17002D5287 /* 429-over-rate-limit.json */; };
+		EFD4327B27680B3000E3E658 /* File+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4327A27680B3000E3E658 /* File+Extensions.swift */; };
+		EFD4327D27680BEB00E3E658 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4327C27680BEB00E3E658 /* Data+Extensions.swift */; };
+		EFD4329227680CB200E3E658 /* SpacePodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4329127680CB200E3E658 /* SpacePodTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD4329327680CB200E3E658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0B5AD6275EEEDB0007329F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0B5ADD275EEEDB0007329F;
+			remoteInfo = SpacePod;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EF0B5ADE275EEEDB0007329F /* SpacePod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpacePod.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,10 +62,21 @@
 		EF71163E2766C662002D5287 /* get-pods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-pods.json"; sourceTree = "<group>"; };
 		EF71163F2766C662002D5287 /* 200-no-copyright.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-copyright.json"; sourceTree = "<group>"; };
 		EF71164C2766CB17002D5287 /* 429-over-rate-limit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "429-over-rate-limit.json"; sourceTree = "<group>"; };
+		EFD4327A27680B3000E3E658 /* File+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "File+Extensions.swift"; sourceTree = "<group>"; };
+		EFD4327C27680BEB00E3E658 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		EFD4328F27680CB200E3E658 /* SpacePodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacePodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD4329127680CB200E3E658 /* SpacePodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePodTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF0B5ADB275EEEDB0007329F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD4328C27680CB200E3E658 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -66,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				EF0B5AE0275EEEDB0007329F /* SpacePod */,
+				EFD4329027680CB200E3E658 /* SpacePodTests */,
 				EF0B5ADF275EEEDB0007329F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				EF0B5ADE275EEEDB0007329F /* SpacePod.app */,
+				EFD4328F27680CB200E3E658 /* SpacePodTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +107,7 @@
 		EF0B5AE0275EEEDB0007329F /* SpacePod */ = {
 			isa = PBXGroup;
 			children = (
+				EFD4327927680B1F00E3E658 /* Extensions */,
 				EF7116332766C654002D5287 /* Payloads */,
 				EF0B5AE1275EEEDB0007329F /* SpacePodApp.swift */,
 				EF0B5AE3275EEEDB0007329F /* ContentView.swift */,
@@ -120,6 +147,23 @@
 			path = Payloads;
 			sourceTree = "<group>";
 		};
+		EFD4327927680B1F00E3E658 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EFD4327A27680B3000E3E658 /* File+Extensions.swift */,
+				EFD4327C27680BEB00E3E658 /* Data+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EFD4329027680CB200E3E658 /* SpacePodTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD4329127680CB200E3E658 /* SpacePodTests.swift */,
+			);
+			path = SpacePodTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +184,24 @@
 			productReference = EF0B5ADE275EEEDB0007329F /* SpacePod.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EFD4328E27680CB200E3E658 /* SpacePodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD4329527680CB200E3E658 /* Build configuration list for PBXNativeTarget "SpacePodTests" */;
+			buildPhases = (
+				EFD4328B27680CB200E3E658 /* Sources */,
+				EFD4328C27680CB200E3E658 /* Frameworks */,
+				EFD4328D27680CB200E3E658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD4329427680CB200E3E658 /* PBXTargetDependency */,
+			);
+			name = SpacePodTests;
+			productName = SpacePodTests;
+			productReference = EFD4328F27680CB200E3E658 /* SpacePodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +214,10 @@
 				TargetAttributes = {
 					EF0B5ADD275EEEDB0007329F = {
 						CreatedOnToolsVersion = 13.1;
+					};
+					EFD4328E27680CB200E3E658 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EF0B5ADD275EEEDB0007329F;
 					};
 				};
 			};
@@ -169,6 +235,7 @@
 			projectRoot = "";
 			targets = (
 				EF0B5ADD275EEEDB0007329F /* SpacePod */,
+				EFD4328E27680CB200E3E658 /* SpacePodTests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +263,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFD4328D27680CB200E3E658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,11 +280,29 @@
 				EF0B5AE4275EEEDB0007329F /* ContentView.swift in Sources */,
 				EF0B5AE2275EEEDB0007329F /* SpacePodApp.swift in Sources */,
 				EF0B5AF2275EFD810007329F /* Network.swift in Sources */,
+				EFD4327D27680BEB00E3E658 /* Data+Extensions.swift in Sources */,
 				EF0B5AF0275EFD6A0007329F /* PodModel.swift in Sources */,
+				EFD4327B27680B3000E3E658 /* File+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD4328B27680CB200E3E658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD4329227680CB200E3E658 /* SpacePodTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD4329427680CB200E3E658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF0B5ADD275EEEDB0007329F /* SpacePod */;
+			targetProxy = EFD4329327680CB200E3E658 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EF0B5AEA275EEEDD0007329F /* Debug */ = {
@@ -387,6 +479,52 @@
 			};
 			name = Release;
 		};
+		EFD4329627680CB200E3E658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95J2692H9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umbrellc.SpacePodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpacePod.app/SpacePod";
+			};
+			name = Debug;
+		};
+		EFD4329727680CB200E3E658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95J2692H9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umbrellc.SpacePodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpacePod.app/SpacePod";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -404,6 +542,15 @@
 			buildConfigurations = (
 				EF0B5AED275EEEDD0007329F /* Debug */,
 				EF0B5AEE275EEEDD0007329F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD4329527680CB200E3E658 /* Build configuration list for PBXNativeTarget "SpacePodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD4329627680CB200E3E658 /* Debug */,
+				EFD4329727680CB200E3E658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
