@@ -13,6 +13,8 @@
 		EF0B5AE9275EEEDD0007329F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */; };
 		EF0B5AF0275EFD6A0007329F /* PodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AEF275EFD6A0007329F /* PodModel.swift */; };
 		EF0B5AF2275EFD810007329F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AF1275EFD810007329F /* Network.swift */; };
+		EF68F390276A837C003A0BD9 /* PodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68F38F276A837C003A0BD9 /* PodDetailView.swift */; };
+		EF68F392276A83D6003A0BD9 /* PodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68F391276A83D6003A0BD9 /* PodListView.swift */; };
 		EF7116402766C662002D5287 /* get-video.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116342766C661002D5287 /* get-video.json */; };
 		EF7116412766C662002D5287 /* 400-bad-request-1.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116352766C661002D5287 /* 400-bad-request-1.json */; };
 		EF7116422766C662002D5287 /* 400-bad-request-2.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116362766C661002D5287 /* 400-bad-request-2.json */; };
@@ -51,6 +53,8 @@
 		EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF0B5AEF275EFD6A0007329F /* PodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodModel.swift; sourceTree = "<group>"; };
 		EF0B5AF1275EFD810007329F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		EF68F38F276A837C003A0BD9 /* PodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodDetailView.swift; sourceTree = "<group>"; };
+		EF68F391276A83D6003A0BD9 /* PodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodListView.swift; sourceTree = "<group>"; };
 		EF7116342766C661002D5287 /* get-video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-video.json"; sourceTree = "<group>"; };
 		EF7116352766C661002D5287 /* 400-bad-request-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "400-bad-request-1.json"; sourceTree = "<group>"; };
 		EF7116362766C661002D5287 /* 400-bad-request-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "400-bad-request-2.json"; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 		EF0B5AE0275EEEDB0007329F /* SpacePod */ = {
 			isa = PBXGroup;
 			children = (
+				EF68F38E276A8365003A0BD9 /* Views */,
 				EFD4327927680B1F00E3E658 /* Extensions */,
 				EF7116332766C654002D5287 /* Payloads */,
 				EF0B5AE1275EEEDB0007329F /* SpacePodApp.swift */,
@@ -131,6 +136,15 @@
 				EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF68F38E276A8365003A0BD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF68F38F276A837C003A0BD9 /* PodDetailView.swift */,
+				EF68F391276A83D6003A0BD9 /* PodListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		EF7116332766C654002D5287 /* Payloads */ = {
@@ -287,11 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF68F390276A837C003A0BD9 /* PodDetailView.swift in Sources */,
 				EF0B5AE4275EEEDB0007329F /* ContentView.swift in Sources */,
 				EF0B5AE2275EEEDB0007329F /* SpacePodApp.swift in Sources */,
 				EF0B5AF2275EFD810007329F /* Network.swift in Sources */,
 				EFD4327D27680BEB00E3E658 /* Data+Extensions.swift in Sources */,
 				EF0B5AF0275EFD6A0007329F /* PodModel.swift in Sources */,
+				EF68F392276A83D6003A0BD9 /* PodListView.swift in Sources */,
 				EFD4327B27680B3000E3E658 /* File+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
