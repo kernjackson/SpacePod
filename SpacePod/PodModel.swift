@@ -4,22 +4,12 @@ struct Pod: Codable, Hashable {
     let copyright: String?
     let date: String
     let explanation: String
-    let hdurl: URL
+    let hdurl: URL?
     let mediaType: String
     let serviceVersion: String
     let title: String
-    let url: URL
-
-    private enum CodingKeys: String, CodingKey {
-        case copyright
-        case date
-        case explanation
-        case hdurl
-        case mediaType = "media_type"
-        case serviceVersion = "service_version"
-        case title
-        case url
-    }
+    let url: URL?
+    let thumbnailUrl: URL?
 }
 
 extension Pod {
@@ -31,6 +21,7 @@ extension Pod {
       mediaType: "image",
       serviceVersion: "v1",
       title: "Space Station Silhouette on the Moon",
-      url: URL(string: "https://apod.nasa.gov/apod/image/2112/IssMoon_McCarthy_960.jpg")!
+      url: URL(string: "https://apod.nasa.gov/apod/image/2112/IssMoon_McCarthy_960.jpg")!,
+      thumbnailUrl: nil
     )
 }

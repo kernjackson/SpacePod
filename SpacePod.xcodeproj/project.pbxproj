@@ -29,6 +29,8 @@
 		EFD4327B27680B3000E3E658 /* File+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4327A27680B3000E3E658 /* File+Extensions.swift */; };
 		EFD4327D27680BEB00E3E658 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4327C27680BEB00E3E658 /* Data+Extensions.swift */; };
 		EFD4329227680CB200E3E658 /* SpacePodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4329127680CB200E3E658 /* SpacePodTests.swift */; };
+		EFED6BD827695D6C00C19797 /* 200-no-urls.json in Resources */ = {isa = PBXBuildFile; fileRef = EFED6BD727695D6C00C19797 /* 200-no-urls.json */; };
+		EFED6BDA276A319300C19797 /* 200-copyright-incorrect.json in Resources */ = {isa = PBXBuildFile; fileRef = EFED6BD9276A319200C19797 /* 200-copyright-incorrect.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		EFD4328F27680CB200E3E658 /* SpacePodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacePodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD4329127680CB200E3E658 /* SpacePodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePodTests.swift; sourceTree = "<group>"; };
 		EFD432982768237C00E3E658 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EFED6BD727695D6C00C19797 /* 200-no-urls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-urls.json"; sourceTree = "<group>"; };
+		EFED6BD9276A319200C19797 /* 200-copyright-incorrect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-copyright-incorrect.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +136,10 @@
 		EF7116332766C654002D5287 /* Payloads */ = {
 			isa = PBXGroup;
 			children = (
+				EFED6BD9276A319200C19797 /* 200-copyright-incorrect.json */,
 				EF7116392766C661002D5287 /* 200-empty-explanation.json */,
 				EF71163F2766C662002D5287 /* 200-no-copyright.json */,
+				EFED6BD727695D6C00C19797 /* 200-no-urls.json */,
 				EF7116352766C661002D5287 /* 400-bad-request-1.json */,
 				EF7116362766C661002D5287 /* 400-bad-request-2.json */,
 				EF71163B2766C662002D5287 /* 403-api-key-invalid.json */,
@@ -247,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFED6BDA276A319300C19797 /* 200-copyright-incorrect.json in Resources */,
 				EF7116452766C662002D5287 /* 200-empty-explanation.json in Resources */,
 				EF71164A2766C662002D5287 /* get-pods.json in Resources */,
 				EF7116422766C662002D5287 /* 400-bad-request-2.json in Resources */,
@@ -254,6 +261,7 @@
 				EF0B5AE9275EEEDD0007329F /* Preview Assets.xcassets in Resources */,
 				EF7116472766C662002D5287 /* 403-api-key-invalid.json in Resources */,
 				EF7116492766C662002D5287 /* get-random-pods.json in Resources */,
+				EFED6BD827695D6C00C19797 /* 200-no-urls.json in Resources */,
 				EF7116412766C662002D5287 /* 400-bad-request-1.json in Resources */,
 				EF0B5AE6275EEEDD0007329F /* Assets.xcassets in Resources */,
 				EF7116482766C662002D5287 /* get-pod.json in Resources */,
@@ -429,7 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_ASSET_PATHS = "\"SpacePod/Preview Content\"";
 				DEVELOPMENT_TEAM = 95J2692H9Q;
 				ENABLE_PREVIEWS = YES;
@@ -458,7 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_ASSET_PATHS = "\"SpacePod/Preview Content\"";
 				DEVELOPMENT_TEAM = 95J2692H9Q;
 				ENABLE_PREVIEWS = YES;

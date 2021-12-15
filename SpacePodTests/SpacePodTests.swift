@@ -23,9 +23,47 @@ class SpacePodTests: XCTestCase {
         }
     }
 
+    // MARK: Decoding Pod(s)
+
     func testLoadPodFromFile() {
         let pod = File.data(from: "get-pod", withExtension: .json)?.toPod
         XCTAssertEqual(pod, Pod.default, "Pod from file matches default Pod.")
     }
 
+    func testLoadPodFromNoCopyright() {
+        let pod = File.data(from: "200-no-copyright", withExtension: .json)?.toPod
+        XCTAssertNotNil(pod)
+        XCTAssertNil(pod?.copyright)
+    }
+
+    func testDecodePodEmptyExplanation() {
+        let pod = File.data(from: "200-empty-explanation", withExtension: .json)?.toPod
+        XCTAssertNotNil(pod)
+        XCTAssertNotNil(pod?.explanation)
+        XCTAssertEqual(pod?.explanation, "")
+    }
+
+    func testDecodePodWithNoHDURL() {
+        let pod = File.data(from: "get-video", withExtension: .json)?.toPod
+        XCTAssertNotNil(pod)
+        XCTAssertNil(pod?.hdurl)
+    }
+
+    func testDecodePodWithThumbnailURL() {
+        let pod = File.data(from: "get-video", withExtension: .json)?.toPod
+        XCTAssertNotNil(pod)
+        XCTAssertEqual(pod?.thumbnailUrl?.absoluteString, "https://img.youtube.com/vi/7NykS2kv_k8/0.jpg")
+    }
+
+    func testDecodePods() {
+        let pods = File.data(from: "get-pods", withExtension: .json)?.toPods
+        XCTAssertNotNil(pods)
+        XCTAssertEqual(pods?.count, 2, "")
+    }
+
+    func testDecodePodNoURL() {
+        let pod = File.data(from: "200-no-urls", withExtension: .json)?.toPod
+        XCTAssertEqual(pod?.title, "Falling to Earth")
+        XCTAssertNil(pod?.url)
+    }
 }
