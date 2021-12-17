@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct PodDetailView: View {
-    @State var pod = Pod.default
+    @State var pod: Pod
     var body: some View {
         List {
             AsyncImage(url: pod.url)
@@ -17,16 +17,13 @@ struct PodDetailView: View {
             Label(pod.date, systemImage: "calendar")
             Text(pod.explanation)
                 .padding(.vertical)
-        }.task {
-            if let response = await Network().getPod() {
-                pod = response
-            }
         }
     }
 }
 
 struct PodDetailView_Previews: PreviewProvider {
+    static var pod = File.data(from: "get-pod", withExtension: .json)?.toPod
     static var previews: some View {
-        PodDetailView()
+        PodDetailView(pod: pod!)
     }
 }
