@@ -13,4 +13,10 @@ extension Data {
         decoder.keyDecodingStrategy = .convertFromSnakeCase
         return try? decoder.decode([Pod]?.self, from: self)
     }
+
+    var toSecret: Secret? {
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        return try? decoder.decode(Secret?.self, from: self)
+    }
 }

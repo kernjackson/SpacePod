@@ -15,11 +15,12 @@
 		EF0B5AF2275EFD810007329F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AF1275EFD810007329F /* Network.swift */; };
 		EF68F390276A837C003A0BD9 /* PodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68F38F276A837C003A0BD9 /* PodDetailView.swift */; };
 		EF68F392276A83D6003A0BD9 /* PodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68F391276A83D6003A0BD9 /* PodListView.swift */; };
+		EF704C4A276D61A600CE5485 /* Secrets.json in Resources */ = {isa = PBXBuildFile; fileRef = EF704C49276D61A500CE5485 /* Secrets.json */; };
+		EF704C4D276D620C00CE5485 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF704C4C276D620C00CE5485 /* Secret.swift */; };
 		EF7116402766C662002D5287 /* get-video.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116342766C661002D5287 /* get-video.json */; };
 		EF7116412766C662002D5287 /* 400-bad-request-1.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116352766C661002D5287 /* 400-bad-request-1.json */; };
 		EF7116422766C662002D5287 /* 400-bad-request-2.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116362766C661002D5287 /* 400-bad-request-2.json */; };
 		EF7116432766C662002D5287 /* 404-no-data.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116372766C661002D5287 /* 404-no-data.json */; };
-		EF7116442766C662002D5287 /* nasa.sh in Resources */ = {isa = PBXBuildFile; fileRef = EF7116382766C661002D5287 /* nasa.sh */; };
 		EF7116452766C662002D5287 /* 200-empty-explanation.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116392766C661002D5287 /* 200-empty-explanation.json */; };
 		EF7116462766C662002D5287 /* 403-api-key-missing.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163A2766C661002D5287 /* 403-api-key-missing.json */; };
 		EF7116472766C662002D5287 /* 403-api-key-invalid.json in Resources */ = {isa = PBXBuildFile; fileRef = EF71163B2766C662002D5287 /* 403-api-key-invalid.json */; };
@@ -55,6 +56,9 @@
 		EF0B5AF1275EFD810007329F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		EF68F38F276A837C003A0BD9 /* PodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodDetailView.swift; sourceTree = "<group>"; };
 		EF68F391276A83D6003A0BD9 /* PodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodListView.swift; sourceTree = "<group>"; };
+		EF704C48276D614400CE5485 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EF704C49276D61A500CE5485 /* Secrets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Secrets.json; sourceTree = "<group>"; };
+		EF704C4C276D620C00CE5485 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		EF7116342766C661002D5287 /* get-video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-video.json"; sourceTree = "<group>"; };
 		EF7116352766C661002D5287 /* 400-bad-request-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "400-bad-request-1.json"; sourceTree = "<group>"; };
 		EF7116362766C661002D5287 /* 400-bad-request-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "400-bad-request-2.json"; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 		EF0B5AD5275EEEDB0007329F = {
 			isa = PBXGroup;
 			children = (
+				EF704C49276D61A500CE5485 /* Secrets.json */,
+				EF704C48276D614400CE5485 /* .gitignore */,
 				EFD432982768237C00E3E658 /* README.md */,
 				EF0B5AE0275EEEDB0007329F /* SpacePod */,
 				EFD4329027680CB200E3E658 /* SpacePodTests */,
@@ -122,7 +128,7 @@
 				EF7116332766C654002D5287 /* Payloads */,
 				EF0B5AE1275EEEDB0007329F /* SpacePodApp.swift */,
 				EF0B5AE3275EEEDB0007329F /* ContentView.swift */,
-				EF0B5AEF275EFD6A0007329F /* PodModel.swift */,
+				EF704C4B276D61F500CE5485 /* Models */,
 				EF0B5AE5275EEEDD0007329F /* Assets.xcassets */,
 				EF0B5AE7275EEEDD0007329F /* Preview Content */,
 				EF0B5AF1275EFD810007329F /* Network.swift */,
@@ -145,6 +151,15 @@
 				EF68F391276A83D6003A0BD9 /* PodListView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EF704C4B276D61F500CE5485 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF0B5AEF275EFD6A0007329F /* PodModel.swift */,
+				EF704C4C276D620C00CE5485 /* Secret.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		EF7116332766C654002D5287 /* Payloads */ = {
@@ -279,11 +294,11 @@
 				EF7116412766C662002D5287 /* 400-bad-request-1.json in Resources */,
 				EF0B5AE6275EEEDD0007329F /* Assets.xcassets in Resources */,
 				EF7116482766C662002D5287 /* get-pod.json in Resources */,
-				EF7116442766C662002D5287 /* nasa.sh in Resources */,
 				EF71164B2766C662002D5287 /* 200-no-copyright.json in Resources */,
 				EF71164D2766CB17002D5287 /* 429-over-rate-limit.json in Resources */,
 				EF7116462766C662002D5287 /* 403-api-key-missing.json in Resources */,
 				EF7116432766C662002D5287 /* 404-no-data.json in Resources */,
+				EF704C4A276D61A600CE5485 /* Secrets.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +323,7 @@
 				EFD4327D27680BEB00E3E658 /* Data+Extensions.swift in Sources */,
 				EF0B5AF0275EFD6A0007329F /* PodModel.swift in Sources */,
 				EF68F392276A83D6003A0BD9 /* PodListView.swift in Sources */,
+				EF704C4D276D620C00CE5485 /* Secret.swift in Sources */,
 				EFD4327B27680B3000E3E658 /* File+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
