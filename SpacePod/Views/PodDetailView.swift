@@ -14,7 +14,9 @@ struct PodDetailView: View {
             if let copyright = pod.copyright {
                 Label(copyright, systemImage: "c.circle.fill")
             }
-            Label(pod.date, systemImage: "calendar")
+            if let date = pod.date {
+                Label(date.long, systemImage: "calendar")
+            }
             Text(pod.explanation)
                 .padding(.vertical)
         }
