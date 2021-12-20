@@ -26,6 +26,7 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 16. Display Pods with SwiftUI's NavigationView, List, and NavigationLink [video](https://youtu.be/Ca5UaZXeD-0) Bug Fixes [video](https://youtu.be/g48Hne1_nVg)
 17. Adding and Ignoring App Secrets [video](https://youtu.be/HbMgDKIK_4s)
 18. Decoding & Formatting Dates [video](https://youtu.be/RSBE_d_ibR4)
+19. SpacePod 19: AsyncImagePhase, Resizing, and Scaling [video](https://youtu.be/JHOFDxKMbBk)
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLWebBadhYmf9NRIJXE_hBGTtyFwrxrXJ3)
 

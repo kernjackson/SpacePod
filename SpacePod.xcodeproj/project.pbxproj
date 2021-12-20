@@ -20,6 +20,9 @@
 		EF704C55276D790D00CE5485 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF704C54276D790D00CE5485 /* DateFormatter+Extensions.swift */; };
 		EF704C57276D79D700CE5485 /* DateDecodingStrategy_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF704C56276D79D700CE5485 /* DateDecodingStrategy_Extensions.swift */; };
 		EF704C59276D7B5500CE5485 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF704C58276D7B5500CE5485 /* Date+Extensions.swift */; };
+		EF704C6B27700F4D00CE5485 /* PodImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF704C6A27700F4D00CE5485 /* PodImageView.swift */; };
+		EF704C6D2770102C00CE5485 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF704C6C2770102C00CE5485 /* ErrorView.swift */; };
+		EF704C6F277011B300CE5485 /* ImageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF704C6E277011B300CE5485 /* ImageRowView.swift */; };
 		EF7116402766C662002D5287 /* get-video.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116342766C661002D5287 /* get-video.json */; };
 		EF7116412766C662002D5287 /* 400-bad-request-1.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116352766C661002D5287 /* 400-bad-request-1.json */; };
 		EF7116422766C662002D5287 /* 400-bad-request-2.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7116362766C661002D5287 /* 400-bad-request-2.json */; };
@@ -65,6 +68,9 @@
 		EF704C54276D790D00CE5485 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		EF704C56276D79D700CE5485 /* DateDecodingStrategy_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDecodingStrategy_Extensions.swift; sourceTree = "<group>"; };
 		EF704C58276D7B5500CE5485 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		EF704C6A27700F4D00CE5485 /* PodImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodImageView.swift; sourceTree = "<group>"; };
+		EF704C6C2770102C00CE5485 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		EF704C6E277011B300CE5485 /* ImageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRowView.swift; sourceTree = "<group>"; };
 		EF7116342766C661002D5287 /* get-video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-video.json"; sourceTree = "<group>"; };
 		EF7116352766C661002D5287 /* 400-bad-request-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "400-bad-request-1.json"; sourceTree = "<group>"; };
 		EF7116362766C661002D5287 /* 400-bad-request-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "400-bad-request-2.json"; sourceTree = "<group>"; };
@@ -155,6 +161,9 @@
 			children = (
 				EF68F38F276A837C003A0BD9 /* PodDetailView.swift */,
 				EF68F391276A83D6003A0BD9 /* PodListView.swift */,
+				EF704C6A27700F4D00CE5485 /* PodImageView.swift */,
+				EF704C6C2770102C00CE5485 /* ErrorView.swift */,
+				EF704C6E277011B300CE5485 /* ImageRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -325,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF704C6F277011B300CE5485 /* ImageRowView.swift in Sources */,
 				EF68F390276A837C003A0BD9 /* PodDetailView.swift in Sources */,
 				EF0B5AE4275EEEDB0007329F /* ContentView.swift in Sources */,
 				EF704C57276D79D700CE5485 /* DateDecodingStrategy_Extensions.swift in Sources */,
@@ -335,6 +345,8 @@
 				EFD4327D27680BEB00E3E658 /* Data+Extensions.swift in Sources */,
 				EF0B5AF0275EFD6A0007329F /* Pod.swift in Sources */,
 				EF68F392276A83D6003A0BD9 /* PodListView.swift in Sources */,
+				EF704C6B27700F4D00CE5485 /* PodImageView.swift in Sources */,
+				EF704C6D2770102C00CE5485 /* ErrorView.swift in Sources */,
 				EF704C4D276D620C00CE5485 /* Secret.swift in Sources */,
 				EFD4327B27680B3000E3E658 /* File+Extensions.swift in Sources */,
 			);

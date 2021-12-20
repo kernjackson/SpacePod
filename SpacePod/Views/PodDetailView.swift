@@ -4,9 +4,9 @@ struct PodDetailView: View {
     @State var pod: Pod
     var body: some View {
         List {
-            AsyncImage(url: pod.url)
-                .frame(height: 280)
-                .listRowInsets(.init())
+            if let url = pod.url {
+                PodImageView(url: url)
+            }
             Text(pod.title)
                 .font(.title)
                 .bold()
