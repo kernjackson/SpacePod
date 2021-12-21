@@ -1,6 +1,6 @@
 # SpacePod 22 - SwiftUI Previews - Device, DisplayName, & InterfaceOrientation
 
-Previously we added a "Fetching Pods..." view whenever we don't have any pods to display. This works well enough on iPads, but results in a blank screen on iPhones. Let's fix the problem and add some additonal previews along the way.
+Previously we added a "Fetching Pods..." view whenever we don't have any pods to display. This works well enough on iPads, but results in a blank screen on iPhones. Let's fix the problem and add some additional previews along the way.
 
 1. Fetching pods doesn't show on iPhones in portrait mode
 

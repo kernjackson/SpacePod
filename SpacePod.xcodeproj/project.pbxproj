@@ -61,6 +61,11 @@
 		EF0B5AEF275EFD6A0007329F /* Pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod.swift; sourceTree = "<group>"; };
 		EF0B5AF1275EFD810007329F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		EF279CF8277284BA00A74296 /* 22  Multiple Previews.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "22  Multiple Previews.md"; sourceTree = "<group>"; };
+		EF279CF92772875C00A74296 /* 21 SplitView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "21 SplitView.md"; sourceTree = "<group>"; };
+		EF279CFA2772878000A74296 /* 20 Video Thumbnails.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "20 Video Thumbnails.md"; sourceTree = "<group>"; };
+		EF279CFB2772881300A74296 /* 19 AsyncImagePhase.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "19 AsyncImagePhase.md"; sourceTree = "<group>"; };
+		EF279CFC2772885A00A74296 /* 18 Decoding & Formatting Dates.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "18 Decoding & Formatting Dates.md"; sourceTree = "<group>"; };
+		EF279CFD2772887C00A74296 /* 17 App Secrets.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "17 App Secrets.md"; sourceTree = "<group>"; };
 		EF68F38F276A837C003A0BD9 /* PodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodDetailView.swift; sourceTree = "<group>"; };
 		EF68F391276A83D6003A0BD9 /* PodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodListView.swift; sourceTree = "<group>"; };
 		EF704C48276D614400CE5485 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -160,6 +165,11 @@
 		EF279CF72772848800A74296 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				EF279CFD2772887C00A74296 /* 17 App Secrets.md */,
+				EF279CFC2772885A00A74296 /* 18 Decoding & Formatting Dates.md */,
+				EF279CFB2772881300A74296 /* 19 AsyncImagePhase.md */,
+				EF279CFA2772878000A74296 /* 20 Video Thumbnails.md */,
+				EF279CF92772875C00A74296 /* 21 SplitView.md */,
 				EF279CF8277284BA00A74296 /* 22  Multiple Previews.md */,
 			);
 			path = Notes;
