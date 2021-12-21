@@ -139,7 +139,6 @@
 				EFD4327927680B1F00E3E658 /* Extensions */,
 				EF7116332766C654002D5287 /* Payloads */,
 				EF0B5AE1275EEEDB0007329F /* SpacePodApp.swift */,
-				EF0B5AE3275EEEDB0007329F /* ContentView.swift */,
 				EF704C4B276D61F500CE5485 /* Models */,
 				EF0B5AE5275EEEDD0007329F /* Assets.xcassets */,
 				EF0B5AE7275EEEDD0007329F /* Preview Content */,
@@ -159,6 +158,7 @@
 		EF68F38E276A8365003A0BD9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EF0B5AE3275EEEDB0007329F /* ContentView.swift */,
 				EF68F38F276A837C003A0BD9 /* PodDetailView.swift */,
 				EF68F391276A83D6003A0BD9 /* PodListView.swift */,
 				EF704C6A27700F4D00CE5485 /* PodImageView.swift */,
