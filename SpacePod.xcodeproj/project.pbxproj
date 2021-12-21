@@ -60,6 +60,7 @@
 		EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF0B5AEF275EFD6A0007329F /* Pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod.swift; sourceTree = "<group>"; };
 		EF0B5AF1275EFD810007329F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		EF279CF8277284BA00A74296 /* 22  Multiple Previews.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "22  Multiple Previews.md"; sourceTree = "<group>"; };
 		EF68F38F276A837C003A0BD9 /* PodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodDetailView.swift; sourceTree = "<group>"; };
 		EF68F391276A83D6003A0BD9 /* PodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodListView.swift; sourceTree = "<group>"; };
 		EF704C48276D614400CE5485 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -114,6 +115,7 @@
 		EF0B5AD5275EEEDB0007329F = {
 			isa = PBXGroup;
 			children = (
+				EF279CF72772848800A74296 /* Notes */,
 				EF704C49276D61A500CE5485 /* Secrets.json */,
 				EF704C48276D614400CE5485 /* .gitignore */,
 				EFD432982768237C00E3E658 /* README.md */,
@@ -153,6 +155,14 @@
 				EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF279CF72772848800A74296 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				EF279CF8277284BA00A74296 /* 22  Multiple Previews.md */,
+			);
+			path = Notes;
 			sourceTree = "<group>";
 		};
 		EF68F38E276A8365003A0BD9 /* Views */ = {

@@ -13,11 +13,12 @@ struct PodListView: View {
                             Text(pod.title)
                         }
                     }
-                    .navigationTitle("SpacePod")
-                    .navigationBarTitleDisplayMode(.inline)
-                    .refreshable {
-                        await getPods()
-                    }
+                }
+                .navigationTitle("SpacePod")
+                .navigationBarTitleDisplayMode(.inline)
+
+                .refreshable {
+                    await getPods()
                 }
                 PodDetailView(pod: pod)
 
@@ -25,7 +26,6 @@ struct PodListView: View {
                 Text("Fetching Pods...")
                 Text("Fetching Pods...")
             }
-
         }
         .task {
             if pods.isEmpty { await getPods() }
@@ -43,21 +43,22 @@ struct PodListView_Previews: PreviewProvider {
     static var pods = File.data(from: "get-pods", withExtension: .json)?.toPods
     static var previews: some View {
 
-        PodListView(pods: [])
-            .previewDevice(PreviewDevice(rawValue: "iPhone 13 mini"))
-            .previewDisplayName("iPhone 13 mini: Loading")
-            .previewInterfaceOrientation(.landscapeRight)
-        PodListView(pods: pods!)
-            .previewDevice(PreviewDevice(rawValue: "iPhone 13 mini"))
-            .previewDisplayName("iPhone 13 mini")
-            .previewInterfaceOrientation(.landscapeRight)
+        // I've disabled these due to performance issues while screen recording
+
+//        PodListView(pods: [])
+//            .previewDevice(PreviewDevice(rawValue: "iPhone 13 mini"))
+//            .previewDisplayName("iPhone 13 mini - Fetching Pods...")
+//        PodListView(pods: pods!)
+//            .previewDevice(PreviewDevice(rawValue: "iPhone 13 mini"))
+//            .previewDisplayName("iPhone 13 mini")
 
         PodListView(pods: [])
             .previewDevice(PreviewDevice(rawValue: "iPad mini (6th generation)"))
-            .previewDisplayName("iPhone 13 mini: Loading")
+            .previewDisplayName("iPad mini - Fetching Pods...")
             .previewInterfaceOrientation(.landscapeRight)
+
         PodListView(pods: pods!)
-            .previewDevice(PreviewDevice(rawValue: "iPad mini (6th generation)"))
+            .previewDevice(PreviewDevice(rawValue:  "iPad mini (6th generation)"))
             .previewDisplayName("iPhone 13 mini")
             .previewInterfaceOrientation(.landscapeRight)
     }
