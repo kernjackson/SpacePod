@@ -5,6 +5,7 @@ struct PodListView: View {
 
     var body: some View {
         NavigationView {
+
             List {
                 ForEach(pods, id: \.self) { pod in
                     NavigationLink(destination: PodDetailView(pod: pod)) {
@@ -12,13 +13,21 @@ struct PodListView: View {
                     }
                 }
             }
-            .navigationTitle(pods.isEmpty ? "Fetching Pods..." : "SpacePod")
+            .navigationTitle("SpacePod")
+            .navigationBarTitleDisplayMode(.inline)
             .task {
                 if pods.isEmpty { await getPods() }
             }
             .refreshable {
                 await getPods()
             }
+
+            if let pod = pods.first {
+                PodDetailView(pod: pod)
+            } else {
+                Text("Fetching Pods...")
+            }
+
         }
     }
 

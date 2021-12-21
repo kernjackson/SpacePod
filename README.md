@@ -28,6 +28,7 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 18. Decoding & Formatting Dates [video](https://youtu.be/RSBE_d_ibR4)
 19. SpacePod 19: AsyncImagePhase, Resizing, and Scaling [video](https://youtu.be/JHOFDxKMbBk)
 20. SpacePod 20: Displaying Optional Video Thumbnails [video](https://youtu.be/re2bBrFOw5Q)
+21. SpacePod 21: SwiftUI 'Split View'
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLWebBadhYmf9NRIJXE_hBGTtyFwrxrXJ3)
 
