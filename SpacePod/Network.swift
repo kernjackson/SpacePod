@@ -4,9 +4,11 @@ class Network {
 
     let baseUrl = "https://api.nasa.gov/planetary/apod"
     let apiKey = "?api_key=" + (File.data(from: "Secrets", withExtension: .json)?.toSecret?.apiKey.description ?? "DEMO_KEY")
+    let count = "&count=20"
+    let thumbs = "&thumbs=true"
 
     func getPods() async -> [Pod]? {
-        let url = URL(string: "\(baseUrl)\(apiKey)&count=20")!
+        let url = URL(string: "\(baseUrl)\(apiKey)\(count)\(thumbs)")!
         do {
             let request = URLRequest(url: url)
 #if DEBUG

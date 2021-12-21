@@ -16,9 +16,15 @@ struct PodImageView: View {
 
 struct PodImageView_Previews: PreviewProvider {
     static var url = File.data(from: "get-pod", withExtension: .json)?.toPod?.url
+    static var thumbnailUrl = File.data(from: "get-video", withExtension: .json)?.toPod?.thumbnailUrl
     static var previews: some View {
         List {
-            PodImageView(url: url!)
+            Section("image") {
+                PodImageView(url: url!)
+            }
+            Section("video") {
+                PodImageView(url: thumbnailUrl!)
+            }
         }
     }
 }

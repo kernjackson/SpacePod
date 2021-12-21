@@ -4,7 +4,7 @@ struct PodDetailView: View {
     @State var pod: Pod
     var body: some View {
         List {
-            if let url = pod.url {
+            if let url = pod.thumbnailUrl ?? pod.url {
                 PodImageView(url: url)
             }
             Text(pod.title)
