@@ -13,6 +13,7 @@
 		EF0B5AE9275EEEDD0007329F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */; };
 		EF0B5AF0275EFD6A0007329F /* Pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AEF275EFD6A0007329F /* Pod.swift */; };
 		EF0B5AF2275EFD810007329F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AF1275EFD810007329F /* Network.swift */; };
+		EF2C91C327740E35002BBCED /* Array+Uniqued.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2C91C227740E35002BBCED /* Array+Uniqued.swift */; };
 		EF68F390276A837C003A0BD9 /* PodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68F38F276A837C003A0BD9 /* PodDetailView.swift */; };
 		EF68F392276A83D6003A0BD9 /* PodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68F391276A83D6003A0BD9 /* PodListView.swift */; };
 		EF704C4A276D61A600CE5485 /* Secrets.json in Resources */ = {isa = PBXBuildFile; fileRef = EF704C49276D61A500CE5485 /* Secrets.json */; };
@@ -67,6 +68,8 @@
 		EF279CFC2772885A00A74296 /* 18 Decode & Format Dates.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "18 Decode & Format Dates.md"; sourceTree = "<group>"; };
 		EF279CFD2772887C00A74296 /* 17 App Secrets.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "17 App Secrets.md"; sourceTree = "<group>"; };
 		EF2C91C02773FE60002BBCED /* 23 Obfuscated Logging.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "23 Obfuscated Logging.md"; sourceTree = "<group>"; };
+		EF2C91C127740837002BBCED /* 24 Infinite List.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "24 Infinite List.md"; sourceTree = "<group>"; };
+		EF2C91C227740E35002BBCED /* Array+Uniqued.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Uniqued.swift"; sourceTree = "<group>"; };
 		EF68F38F276A837C003A0BD9 /* PodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodDetailView.swift; sourceTree = "<group>"; };
 		EF68F391276A83D6003A0BD9 /* PodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodListView.swift; sourceTree = "<group>"; };
 		EF704C48276D614400CE5485 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -173,6 +176,7 @@
 				EF279CF92772875C00A74296 /* 21 SplitView.md */,
 				EF279CF8277284BA00A74296 /* 22 Multiple Previews.md */,
 				EF2C91C02773FE60002BBCED /* 23 Obfuscated Logging.md */,
+				EF2C91C127740837002BBCED /* 24 Infinite List.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -229,6 +233,7 @@
 				EF704C54276D790D00CE5485 /* DateFormatter+Extensions.swift */,
 				EF704C56276D79D700CE5485 /* DateDecodingStrategy_Extensions.swift */,
 				EF704C58276D7B5500CE5485 /* Date+Extensions.swift */,
+				EF2C91C227740E35002BBCED /* Array+Uniqued.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -359,6 +364,7 @@
 				EF704C6F277011B300CE5485 /* ImageRowView.swift in Sources */,
 				EF68F390276A837C003A0BD9 /* PodDetailView.swift in Sources */,
 				EF0B5AE4275EEEDB0007329F /* ContentView.swift in Sources */,
+				EF2C91C327740E35002BBCED /* Array+Uniqued.swift in Sources */,
 				EF704C57276D79D700CE5485 /* DateDecodingStrategy_Extensions.swift in Sources */,
 				EF0B5AE2275EEEDB0007329F /* SpacePodApp.swift in Sources */,
 				EF0B5AF2275EFD810007329F /* Network.swift in Sources */,
