@@ -11,20 +11,20 @@ class Network {
         let url = URL(string: "\(baseUrl)\(apiKey)\(count)\(thumbs)")!
         do {
             let request = URLRequest(url: url)
-#if DEBUG
-            print("🌎 request: " + request.debugDescription)
-#endif
+            log("🌎 request: " + request.debugDescription)
             let (data, response) = try await URLSession.shared.data(for: request)
-#if DEBUG
-            print("🌎 response: " + response.debugDescription)
-#endif
+            log("🌎 response: " + response.debugDescription)
             return data.toPods
         }
         catch {
-#if DEBUG
-            print("🌎 error: " + error.localizedDescription)
-#endif
+            log("🌎 error: " + error.localizedDescription)
             return nil
         }
+    }
+
+    private func log(_ string: String) {
+#if DEBUG
+        print(string.replacingOccurrences(of: apiKey, with: "?api_key=" + "YOUR_OBFUSCATED_API_KEY"))
+#endif
     }
 }
