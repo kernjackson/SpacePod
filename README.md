@@ -31,7 +31,8 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 21. SwiftUI 'Split View' [video](https://youtu.be/90BKOqN4dNE)
 22. Multiple Previews [video](https://youtu.be/R59FkVIxtGs)
 23. Obfuscated Logging [video](https://youtu.be/BMhwijis-ps)
-24. Infinite List
+24. Infinite List [video](https://youtu.be/bQO--MQxXRo)
+25. Multitasking Support [video](https://youtu.be/iOrGEIHLiFk)
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLWebBadhYmf9NRIJXE_hBGTtyFwrxrXJ3)
 

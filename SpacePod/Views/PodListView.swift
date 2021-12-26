@@ -21,7 +21,6 @@ struct PodListView: View {
                 }
                 .navigationTitle("SpacePod")
                 .navigationBarTitleDisplayMode(.inline)
-
                 .refreshable {
                     await getPods()
                 }
