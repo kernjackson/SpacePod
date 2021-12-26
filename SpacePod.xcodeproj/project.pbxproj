@@ -61,6 +61,7 @@
 		EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF0B5AEF275EFD6A0007329F /* Pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod.swift; sourceTree = "<group>"; };
 		EF0B5AF1275EFD810007329F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		EF2215EC27792DE60046E474 /* 26 AccentColor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "26 AccentColor.md"; sourceTree = "<group>"; };
 		EF279CF8277284BA00A74296 /* 22 Multiple Previews.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "22 Multiple Previews.md"; sourceTree = "<group>"; };
 		EF279CF92772875C00A74296 /* 21 SplitView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "21 SplitView.md"; sourceTree = "<group>"; };
 		EF279CFA2772878000A74296 /* 20 Video Thumbnails.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "20 Video Thumbnails.md"; sourceTree = "<group>"; };
@@ -179,6 +180,7 @@
 				EF2C91C02773FE60002BBCED /* 23 Obfuscated Logging.md */,
 				EF2C91C127740837002BBCED /* 24 Infinite List.md */,
 				EFEABEAC2774FA6E009E0214 /* 25 Multitasking.md */,
+				EF2215EC27792DE60046E474 /* 26 AccentColor.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
