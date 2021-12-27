@@ -33,6 +33,7 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 23. Obfuscated Logging [video](https://youtu.be/BMhwijis-ps)
 24. Infinite List [video](https://youtu.be/bQO--MQxXRo)
 25. Multitasking Support [video](https://youtu.be/iOrGEIHLiFk)
+26. AccentColor [video](https://youtu.be/GyxV8YCmm28)
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLWebBadhYmf9NRIJXE_hBGTtyFwrxrXJ3)
 
