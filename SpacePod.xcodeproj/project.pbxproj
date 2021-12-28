@@ -13,6 +13,7 @@
 		EF0B5AE9275EEEDD0007329F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */; };
 		EF0B5AF0275EFD6A0007329F /* Pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AEF275EFD6A0007329F /* Pod.swift */; };
 		EF0B5AF2275EFD810007329F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AF1275EFD810007329F /* Network.swift */; };
+		EF1D6A53277AAE6F009399FA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF1D6A51277AAE6F009399FA /* Model.xcdatamodeld */; };
 		EF2C91C327740E35002BBCED /* Array+Uniqued.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2C91C227740E35002BBCED /* Array+Uniqued.swift */; };
 		EF68F390276A837C003A0BD9 /* PodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68F38F276A837C003A0BD9 /* PodDetailView.swift */; };
 		EF68F392276A83D6003A0BD9 /* PodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68F391276A83D6003A0BD9 /* PodListView.swift */; };
@@ -61,6 +62,7 @@
 		EF0B5AE8275EEEDD0007329F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF0B5AEF275EFD6A0007329F /* Pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod.swift; sourceTree = "<group>"; };
 		EF0B5AF1275EFD810007329F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		EF1D6A52277AAE6F009399FA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		EF2215EC27792DE60046E474 /* 26 AccentColor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "26 AccentColor.md"; sourceTree = "<group>"; };
 		EF279CF8277284BA00A74296 /* 22 Multiple Previews.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "22 Multiple Previews.md"; sourceTree = "<group>"; };
 		EF279CF92772875C00A74296 /* 21 SplitView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "21 SplitView.md"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		EF0B5AD5275EEEDB0007329F = {
 			isa = PBXGroup;
 			children = (
+				EF1D6A51277AAE6F009399FA /* Model.xcdatamodeld */,
 				EF279CF72772848800A74296 /* Notes */,
 				EF704C49276D61A500CE5485 /* Secrets.json */,
 				EF704C48276D614400CE5485 /* .gitignore */,
@@ -373,6 +376,7 @@
 				EF0B5AE2275EEEDB0007329F /* SpacePodApp.swift in Sources */,
 				EF0B5AF2275EFD810007329F /* Network.swift in Sources */,
 				EF704C59276D7B5500CE5485 /* Date+Extensions.swift in Sources */,
+				EF1D6A53277AAE6F009399FA /* Model.xcdatamodeld in Sources */,
 				EF704C55276D790D00CE5485 /* DateFormatter+Extensions.swift in Sources */,
 				EFD4327D27680BEB00E3E658 /* Data+Extensions.swift in Sources */,
 				EF0B5AF0275EFD6A0007329F /* Pod.swift in Sources */,
@@ -656,6 +660,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF1D6A51277AAE6F009399FA /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF1D6A52277AAE6F009399FA /* Model.xcdatamodel */,
+			);
+			currentVersion = EF1D6A52277AAE6F009399FA /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EF0B5AD6275EEEDB0007329F /* Project object */;
 }
