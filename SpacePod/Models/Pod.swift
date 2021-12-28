@@ -10,6 +10,18 @@ struct Pod: Codable, Hashable {
     let title: String
     let url: URL?
     let thumbnailUrl: URL?
+
+    private enum CodingKeys: String, CodingKey {
+        case copyright
+        case date
+        case explanation
+        case hdurl
+        case mediaType
+        case serviceVersion
+        case title
+        case url
+        case thumbnailUrl
+    }
 }
 
 extension Pod {
