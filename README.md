@@ -38,6 +38,7 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 28. CoreData Persistence [video](https://youtu.be/vsIyRSRBhG0)
 29. CodingKeys [video](https://youtu.be/svbVDYDc_lA)
 30. GET by Date [video](https://youtu.be/0TeCKUaDUys)
+31. Required Init [video](https://youtu.be/FqV8eGpnmSw)
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLWebBadhYmf9NRIJXE_hBGTtyFwrxrXJ3)
 

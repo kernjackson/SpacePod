@@ -1,6 +1,7 @@
 import Foundation
 
-struct Pod: Codable, Hashable {
+class Pod: Codable, Identifiable {
+    let id: UUID
     let copyright: String?
     let date: Date?
     let explanation: String
@@ -12,6 +13,7 @@ struct Pod: Codable, Hashable {
     let thumbnailUrl: URL?
 
     private enum CodingKeys: String, CodingKey {
+        case id
         case copyright
         case date
         case explanation
@@ -22,18 +24,19 @@ struct Pod: Codable, Hashable {
         case url
         case thumbnailUrl
     }
-}
 
-extension Pod {
-    static let `default` = Pod(
-      copyright: "Andrew McCarthy",
-      date: DateFormatter.yyyyMMdd.date(from: "2021-12-06"),
-      explanation: "What's that unusual spot on the Moon? It's the International Space Station. Using precise timing, the Earth-orbiting space platform was photographed in front of a partially lit gibbous Moon last month. The featured composite, taken from Payson, Arizona, USA last month, was intricately composed by combining, in part, many 1/2000-second images from a video of the ISS crossing the Moon. A close inspection of this unusually crisp ISS silhouette will reveal the outlines of numerous solar panels and trusses.  The bright crater Tycho is visible on the upper left, as well as comparatively rough, light colored terrain known as highlands, and relatively smooth, dark colored areas known as maria.  On-line tools can tell you when the International Space Station will be visible from your area.",
-      hdurl: URL(string: "https://apod.nasa.gov/apod/image/2112/IssMoon_McCarthy_1663.jpg")!,
-      mediaType: "image",
-      serviceVersion: "v1",
-      title: "Space Station Silhouette on the Moon",
-      url: URL(string: "https://apod.nasa.gov/apod/image/2112/IssMoon_McCarthy_960.jpg")!,
-      thumbnailUrl: nil
-    )
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+
+        id = UUID()
+        copyright = try container.decodeIfPresent(String.self, forKey: .copyright)
+        date = try container.decodeIfPresent(Date.self, forKey: .date)
+        explanation = try container.decode(String.self, forKey: .explanation)
+        hdurl = try container.decodeIfPresent(URL.self, forKey: .hdurl)
+        mediaType = try container.decode(String.self, forKey: .mediaType)
+        serviceVersion = try container.decode(String.self, forKey: .serviceVersion)
+        title = try container.decode(String.self, forKey: .title)
+        url = try container.decodeIfPresent(URL.self, forKey: .url)
+        thumbnailUrl = try container.decodeIfPresent(URL.self, forKey: .thumbnailUrl)
+    }
 }

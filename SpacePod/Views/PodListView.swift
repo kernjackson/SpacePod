@@ -8,7 +8,7 @@ struct PodListView: View {
 
             if let pod = pods.first {
                 List {
-                    ForEach(pods, id: \.self) { pod in
+                    ForEach(pods, id: \.id) { pod in
                         NavigationLink(destination: PodDetailView(pod: pod)) {
                             Text(pod.title)
                         }
@@ -35,7 +35,7 @@ struct PodListView: View {
         if let response = await Network().getPods() {
             withAnimation {
                 pods += response
-                pods = pods.uniqued().reversed()
+                pods = pods.reversed()
             }
         }
     }
