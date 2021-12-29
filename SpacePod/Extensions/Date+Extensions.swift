@@ -5,4 +5,9 @@ extension Date {
     var long: String {
         return DateFormatter.longDate.string(from: self)
     }
+
+    /// Returns a date string as "yyyy-MM-dd" (e.g. 2021-12-30)
+    var yyyy_MM_dd: String {
+        return DateFormatter.yyyyMMdd.string(from: self)
+    }
 }

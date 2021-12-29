@@ -12,11 +12,6 @@ struct PodListView: View {
                         NavigationLink(destination: PodDetailView(pod: pod)) {
                             Text(pod.title)
                         }
-                        .task {
-                            if pod == pods.last {
-                                await getPods()
-                            }
-                        }
                     }
                 }
                 .navigationTitle("SpacePod")
@@ -40,7 +35,7 @@ struct PodListView: View {
         if let response = await Network().getPods() {
             withAnimation {
                 pods += response
-                pods = pods.uniqued()
+                pods = pods.uniqued().reversed()
             }
         }
     }

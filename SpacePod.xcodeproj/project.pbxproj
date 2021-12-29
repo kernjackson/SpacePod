@@ -68,6 +68,7 @@
 		EF1D6ADC277BCDC1009399FA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		EF1D6ADE277BCF67009399FA /* 28 CoreData Persistence.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "28 CoreData Persistence.md"; sourceTree = "<group>"; };
 		EF1D6ADF277BD521009399FA /* 29 CodingKeys.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "29 CodingKeys.md"; sourceTree = "<group>"; };
+		EF1D6AE0277BDDAF009399FA /* 30 GET by Date.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "30 GET by Date.md"; sourceTree = "<group>"; };
 		EF2215EC27792DE60046E474 /* 26 AccentColor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "26 AccentColor.md"; sourceTree = "<group>"; };
 		EF279CF8277284BA00A74296 /* 22 Multiple Previews.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "22 Multiple Previews.md"; sourceTree = "<group>"; };
 		EF279CF92772875C00A74296 /* 21 SplitView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "21 SplitView.md"; sourceTree = "<group>"; };
@@ -201,6 +202,7 @@
 				EF1D6A54277AAFDC009399FA /* 27 CoreData Model.md */,
 				EF1D6ADE277BCF67009399FA /* 28 CoreData Persistence.md */,
 				EF1D6ADF277BD521009399FA /* 29 CodingKeys.md */,
+				EF1D6AE0277BDDAF009399FA /* 30 GET by Date.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
