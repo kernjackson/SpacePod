@@ -1,3 +1,42 @@
+# SpacePod 32 CoreData Decodable NSManagedObject
+
+Previously we added a CoreData model named `Nasa`. Let's rename it to `Pod` to mirror our existing object, and then work through the resulting build errors so that our app is using the new object.
+
+## Goals
+
+1. Mirror CoreData Model and Pod Model
+2. Update Pod to work with CoreData
+3. Update our views to ensure everything still works as before
+
+## Steps
+
+1. Rename `Nasa` to `Pod`
+2. Change Codegen to `Category/Extension`, and
+3. Set module to current and save
+4. `import CoreData`
+5. `NSManagedObject`
+6. Delete properties in Pod
+7.  Change `Codble` to `Decodable`
+8.  Remove id
+9.  add `DecoderConfigurationError`
+10. add `CodingUserInfoKey`
+11. add `convenience`
+12. add `context`
+13. add `self.init`
+14. add `decoder.userInfo[CodingUserInfoKey.managedObjectContext] = PersistenceController.shared.container.viewContext`
+15. add `if let` to optionals in views
+
+## Steps
+
+### 1, 2, 3
+
+```xml
+<entity name="Pod" representedClassName=".Pod" syncable="YES" codeGenerationType="category">
+```
+
+### 4 to 13, Pod.swift Complete
+
+```swift
 import Foundation
 import CoreData
 
@@ -43,3 +82,14 @@ class Pod: NSManagedObject, Decodable {
 extension CodingUserInfoKey {
     static let managedObjectText = CodingUserInfoKey(rawValue: "managedObjectContext")!
 }
+```
+
+## 14 Data+Extensions.swift
+
+```swift
+decoder.userInfo[CodingUserInfoKey.managedObjectContext] = PersistenceController.shared.container.viewContext
+```
+
+## 15 Optionals
+
+Handle optionals in our views with `if let...` (for now)

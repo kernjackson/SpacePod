@@ -112,6 +112,7 @@
 		EFEABEAC2774FA6E009E0214 /* 25 Multitasking.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "25 Multitasking.md"; sourceTree = "<group>"; };
 		EFED6BD727695D6C00C19797 /* 200-no-urls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-urls.json"; sourceTree = "<group>"; };
 		EFED6BD9276A319200C19797 /* 200-copyright-incorrect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-copyright-incorrect.json"; sourceTree = "<group>"; };
+		EFFBBD12277E578E00A9E858 /* 32 CoreData Decodable.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "32 CoreData Decodable.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +206,7 @@
 				EF1D6ADF277BD521009399FA /* 29 CodingKeys.md */,
 				EF1D6AE0277BDDAF009399FA /* 30 GET by Date.md */,
 				EF1D6AE1277BE525009399FA /* 31 Required Init.md */,
+				EFFBBD12277E578E00A9E858 /* 32 CoreData Decodable.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";

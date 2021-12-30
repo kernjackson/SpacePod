@@ -10,7 +10,7 @@ struct PodListView: View {
                 List {
                     ForEach(pods, id: \.id) { pod in
                         NavigationLink(destination: PodDetailView(pod: pod)) {
-                            Text(pod.title)
+                            Text(pod.title ?? pod.date?.long ?? "")
                         }
                     }
                 }

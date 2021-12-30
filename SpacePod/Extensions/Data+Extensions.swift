@@ -5,6 +5,7 @@ extension Data {
     var toPod: Pod? {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
+        decoder.userInfo[CodingUserInfoKey.managedObjectText] = PersistenceController.shared.container.viewContext
         decoder.dateDecodingStrategy = .yyyyMMdd
         return try? decoder.decode(Pod?.self, from: self)
     }
@@ -12,6 +13,7 @@ extension Data {
     var toPods: [Pod]? {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
+        decoder.userInfo[CodingUserInfoKey.managedObjectText] = PersistenceController.shared.container.viewContext
         decoder.dateDecodingStrategy = .yyyyMMdd
         return try? decoder.decode([Pod]?.self, from: self)
     }

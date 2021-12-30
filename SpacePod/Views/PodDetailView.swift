@@ -7,18 +7,22 @@ struct PodDetailView: View {
             if let url = pod.thumbnailUrl ?? pod.url {
                 PodImageView(url: url)
             }
-            Text(pod.title)
-                .font(.title)
-                .bold()
-                .padding(.vertical)
+            if let title = pod.title {
+                Text(title)
+                    .font(.title)
+                    .bold()
+                    .padding(.vertical)
+            }
             if let copyright = pod.copyright {
                 Label(copyright, systemImage: "c.circle.fill")
             }
             if let date = pod.date {
                 Label(date.long, systemImage: "calendar")
             }
-            Text(pod.explanation)
-                .padding(.vertical)
+            if let explanation = pod.explanation {
+                Text(explanation)
+                    .padding(.vertical)
+            }
         }
     }
 }
