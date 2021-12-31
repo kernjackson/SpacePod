@@ -1,7 +1,9 @@
 import SwiftUI
 
 struct PodListView: View {
-    @State var pods: [Pod] = []
+
+    @Environment(\.managedObjectContext) private var viewContext
+    @FetchRequest(entity: Pod.entity(), sortDescriptors: [NSSortDescriptor(key: "date", ascending: false)]) var pods: FetchedResults<Pod>
 
     var body: some View {
         NavigationView {
@@ -32,36 +34,20 @@ struct PodListView: View {
     }
 
     private func getPods() async {
-        if let response = await Network().getPods() {
-            withAnimation {
-                pods += response
-                pods = pods.reversed()
+        if await Network().getPods() != nil {
+            do {
+                try viewContext.save()
+            } catch {
+                let nsError = error as NSError
+                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
         }
     }
 }
 
 struct PodListView_Previews: PreviewProvider {
-    static var pods = File.data(from: "get-pods", withExtension: .json)?.toPods
     static var previews: some View {
-
-        // I've disabled these due to performance issues while screen recording
-
-//        PodListView(pods: [])
-//            .previewDevice(PreviewDevice(rawValue: "iPhone 13 mini"))
-//            .previewDisplayName("iPhone 13 mini - Fetching Pods...")
-//        PodListView(pods: pods!)
-//            .previewDevice(PreviewDevice(rawValue: "iPhone 13 mini"))
-//            .previewDisplayName("iPhone 13 mini")
-
-        PodListView(pods: [])
-            .previewDevice(PreviewDevice(rawValue: "iPad mini (6th generation)"))
-            .previewDisplayName("iPad mini - Fetching Pods...")
-            .previewInterfaceOrientation(.landscapeRight)
-
-        PodListView(pods: pods!)
-            .previewDevice(PreviewDevice(rawValue:  "iPad mini (6th generation)"))
-            .previewDisplayName("iPhone 13 mini")
-            .previewInterfaceOrientation(.landscapeRight)
+        PodListView()
+            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
