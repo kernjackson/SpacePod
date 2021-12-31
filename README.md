@@ -41,6 +41,7 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 31. Required Init [video](https://youtu.be/FqV8eGpnmSw)
 32. CoreData Decodable [video](https://youtu.be/jKtrN585hw8)
 33. CoreData Save & Fetch [video](https://youtu.be/MsrhQ3VzOIQ)
+34. CoreData Unique Attributes [video](https://youtu.be/VIzapeVIr0A)
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLWebBadhYmf9NRIJXE_hBGTtyFwrxrXJ3)
 

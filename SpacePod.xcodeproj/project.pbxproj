@@ -105,6 +105,7 @@
 		EF71163F2766C662002D5287 /* 200-no-copyright.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-copyright.json"; sourceTree = "<group>"; };
 		EF71164C2766CB17002D5287 /* 429-over-rate-limit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "429-over-rate-limit.json"; sourceTree = "<group>"; };
 		EFB0C0B2277F5E14001F8EE0 /* 33 CoreData Save & Fetch.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "33 CoreData Save & Fetch.md"; sourceTree = "<group>"; };
+		EFB0C0B3277F6284001F8EE0 /* 34 CoreData Unique Attributes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "34 CoreData Unique Attributes.md"; sourceTree = "<group>"; };
 		EFD4327A27680B3000E3E658 /* File+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "File+Extensions.swift"; sourceTree = "<group>"; };
 		EFD4327C27680BEB00E3E658 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 		EFD4328F27680CB200E3E658 /* SpacePodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacePodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -209,6 +210,7 @@
 				EF1D6AE1277BE525009399FA /* 31 Required Init.md */,
 				EFFBBD12277E578E00A9E858 /* 32 CoreData Decodable.md */,
 				EFB0C0B2277F5E14001F8EE0 /* 33 CoreData Save & Fetch.md */,
+				EFB0C0B3277F6284001F8EE0 /* 34 CoreData Unique Attributes.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";

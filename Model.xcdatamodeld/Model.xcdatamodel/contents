@@ -10,6 +10,11 @@
         <attribute name="thumbnailUrl" optional="YES" attributeType="URI"/>
         <attribute name="title" optional="YES" attributeType="String"/>
         <attribute name="url" optional="YES" attributeType="URI"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="date"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
     </entity>
     <elements>
         <element name="Pod" positionX="-54" positionY="-72" width="128" height="164"/>
