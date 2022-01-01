@@ -44,10 +44,19 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 34. [CoreData Unique Attributes](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/34%20CoreData%20Unique%20Attributes.md)
 35. [CoreData Abstraction](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/35%20CoreData%20Abstraction.md)
 
+## Videos
+
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLWebBadhYmf9NRIJXE_hBGTtyFwrxrXJ3)
+
+## Apps Used
+
+- [Bakery - Simple Icon Creator](https://apps.apple.com/ne/app/bakery-simple-icon-maker/id1575220747?mt=12)
+- [Core Data Lab](https://betamagic.nl/products/coredatalab.html)
+- [KeyCastr](https://github.com/keycastr/keycastr)
+- [Paw](https://paw.cloud)
+- [Xcode](https://developer.apple.com/xcode)
 
 ## Resources
 
 [Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html)
-
 [NASA APIs](https://api.nasa.gov)
