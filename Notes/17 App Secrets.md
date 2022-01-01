@@ -4,6 +4,8 @@
 
 Lot's of ways to do this, and all of them have drawbacks. We are doing it this way to keep things simple. Warning, this approach is simple, but the api key will in **plaintext** in the app bundle!!!
 
+[YouTube](https://youtu.be/HbMgDKIK_4s)
+
 ### Other Methods
 
 1. Environment setting
