@@ -43,3 +43,11 @@ class Pod: NSManagedObject, Decodable {
 extension CodingUserInfoKey {
     static let managedObjectText = CodingUserInfoKey(rawValue: "managedObjectContext")!
 }
+
+extension Pod {
+    static var recent: NSFetchRequest<Pod> {
+        let request: NSFetchRequest<Pod> = Pod.fetchRequest()
+        request.sortDescriptors = [NSSortDescriptor(key: "date", ascending: false)]
+        return request
+    }
+}

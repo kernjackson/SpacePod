@@ -2,15 +2,14 @@ import SwiftUI
 
 struct PodListView: View {
 
-    @Environment(\.managedObjectContext) private var viewContext
-    @FetchRequest(entity: Pod.entity(), sortDescriptors: [NSSortDescriptor(key: "date", ascending: false)]) var pods: FetchedResults<Pod>
+    @EnvironmentObject var pods: PodsController
 
     var body: some View {
         NavigationView {
 
-            if let pod = pods.first {
+            if let pod = pods.fetched.first {
                 List {
-                    ForEach(pods, id: \.id) { pod in
+                    ForEach(pods.fetched, id: \.id) { pod in
                         NavigationLink(destination: PodDetailView(pod: pod)) {
                             Text(pod.title ?? pod.date?.long ?? "")
                         }
@@ -19,7 +18,7 @@ struct PodListView: View {
                 .navigationTitle("SpacePod")
                 .navigationBarTitleDisplayMode(.inline)
                 .refreshable {
-                    await getPods()
+                    await pods.getPods()
                 }
                 PodDetailView(pod: pod)
 
@@ -29,18 +28,7 @@ struct PodListView: View {
             }
         }
         .task {
-            if pods.isEmpty { await getPods() }
-        }
-    }
-
-    private func getPods() async {
-        if await Network().getPods() != nil {
-            do {
-                try viewContext.save()
-            } catch {
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
+            if pods.fetched.isEmpty { await pods.getPods() }
         }
     }
 }

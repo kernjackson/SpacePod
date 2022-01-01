@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF068DB32780EBF900F9B483 /* Pods.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF068DB22780EBF900F9B483 /* Pods.swift */; };
 		EF0B5AE2275EEEDB0007329F /* SpacePodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AE1275EEEDB0007329F /* SpacePodApp.swift */; };
 		EF0B5AE4275EEEDB0007329F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B5AE3275EEEDB0007329F /* ContentView.swift */; };
 		EF0B5AE6275EEEDD0007329F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0B5AE5275EEEDD0007329F /* Assets.xcassets */; };
@@ -56,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF068DB22780EBF900F9B483 /* Pods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pods.swift; sourceTree = "<group>"; };
+		EF068DB42780F72800F9B483 /* 35 CoreData Abstraction.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "35 CoreData Abstraction.md"; sourceTree = "<group>"; };
 		EF0B5ADE275EEEDB0007329F /* SpacePod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpacePod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0B5AE1275EEEDB0007329F /* SpacePodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePodApp.swift; sourceTree = "<group>"; };
 		EF0B5AE3275EEEDB0007329F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -186,6 +189,7 @@
 			children = (
 				EF1D6ADC277BCDC1009399FA /* Persistence.swift */,
 				EF0B5AF1275EFD810007329F /* Network.swift */,
+				EF068DB22780EBF900F9B483 /* Pods.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -211,6 +215,7 @@
 				EFFBBD12277E578E00A9E858 /* 32 CoreData Decodable.md */,
 				EFB0C0B2277F5E14001F8EE0 /* 33 CoreData Save & Fetch.md */,
 				EFB0C0B3277F6284001F8EE0 /* 34 CoreData Unique Attributes.md */,
+				EF068DB42780F72800F9B483 /* 35 CoreData Abstraction.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -409,6 +414,7 @@
 				EFD4327D27680BEB00E3E658 /* Data+Extensions.swift in Sources */,
 				EF0B5AF0275EFD6A0007329F /* Pod.swift in Sources */,
 				EF68F392276A83D6003A0BD9 /* PodListView.swift in Sources */,
+				EF068DB32780EBF900F9B483 /* Pods.swift in Sources */,
 				EF704C6B27700F4D00CE5485 /* PodImageView.swift in Sources */,
 				EF704C6D2770102C00CE5485 /* ErrorView.swift in Sources */,
 				EF704C4D276D620C00CE5485 /* Secret.swift in Sources */,
