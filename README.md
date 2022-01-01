@@ -27,22 +27,22 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 17. [Adding and Ignoring App Secrets](https://github.com/kernjackson/SpacePod/blob/8247888437c445d8bad0338e2dd49e200e527db4/Notes/17%20App%20Secrets.md)
 18. [Decoding & Formatting Dates](https://github.com/kernjackson/SpacePod/blob/8247888437c445d8bad0338e2dd49e200e527db4/Notes/18%20Decode%20&%20Format%20Dates.md)
 19. [AsyncImagePhase, Resizing, and Scaling](https://github.com/kernjackson/SpacePod/blob/5216cd200e09d9c8556535e7c32f3be1202dec08/Notes/19%20AsyncImagePhase.md)
-20. Displaying Optional Video Thumbnails
-21. SwiftUI 'Split View' 
-22. Multiple Previews
-23. Obfuscated Logging
-24. Infinite List
-25. Multitasking Support
-26. AccentColor
-27. CoreData Model
-28. CoreData Persistence
-29. CodingKeys
-30. GET by Date
-31. Required Init
-32. CoreData Decodable
-33. CoreData Save & Fetch
-34. CoreData Unique Attributes
-35. CoreData Abstraction
+20. [Displaying Optional Video Thumbnails](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/20%20Video%20Thumbnails.md)
+21. [SwiftUI 'Split View'](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/21%20SplitView.md)
+22. [Multiple Previews](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/22%20Multiple%20Previews.md)
+23. [Obfuscated Logging](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/23%20Obfuscated%20Logging.md)
+24. [Infinite List](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/24%20Infinite%20List.md)
+25. [Multitasking Support](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/25%20Multitasking.md)
+26. [AccentColor](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/26%20AccentColor.md)
+27. [CoreData Model](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/27%20CoreData%20Model.md)
+28. [CoreData Persistence](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/28%20CoreData%20Persistence.md)
+29. [CodingKeys](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/29%20CodingKeys.md)
+30. [GET by Date](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/30%20GET%20by%20Date.md)
+31. [Required Init](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/31%20Required%20Init.md)
+32. [CoreData Decodable](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/32%20CoreData%20Decodable.md)
+33. [CoreData Save & Fetch](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/33%20CoreData%20Save%20&%20Fetch.md)
+34. [CoreData Unique Attributes](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/34%20CoreData%20Unique%20Attributes.md)
+35. [CoreData Abstraction](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/35%20CoreData%20Abstraction.md)
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLWebBadhYmf9NRIJXE_hBGTtyFwrxrXJ3)
 
