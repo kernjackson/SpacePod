@@ -1,5 +1,7 @@
 # SpacePod 19: AsyncImagePhase, Resizing, and Scaling
 
+[YouTube](https://youtu.be/JHOFDxKMbBk)
+
 ## Problems
 
 1. Images don't cover the entire width of the cell on larger screens.
