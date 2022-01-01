@@ -1,5 +1,7 @@
 # SpacePod 18 Decoding & Formatting Dates
 
+[YouTube](https://youtu.be/RSBE_d_ibR4)
+
 ## Goals
 
 1. Decode date as a Date?
