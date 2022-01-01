@@ -58,5 +58,5 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 
 ## Resources
 
-[Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html)
-[NASA APIs](https://api.nasa.gov)
+- [Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html)
+- [NASA APIs](https://api.nasa.gov)
