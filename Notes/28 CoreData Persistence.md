@@ -2,6 +2,8 @@
 
 Over the next few videos we'll be doing some behind the scenes work that **shouldn't** have any effect on the user experience until we're finished. Let's add a persistence controller, and then confirm the app still works as expected.
 
+[YouTube](https://youtu.be/vsIyRSRBhG0)
+
 ## Steps
 
 1. Select Network.swift in the Navigator

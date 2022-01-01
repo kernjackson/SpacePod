@@ -2,6 +2,8 @@
 
 We're still making some behind the scenes changes so that we can cache api responses using CoreData. Today we'll restore our CodingKeys from our git repo in preparation for making our model conform to `NSManagedObject`.
 
+[YouTube](https://youtu.be/svbVDYDc_lA)
+
 1. Open `Pod.swift`
 2. Click `Enable Code Review`
 3. Copy & Paste CodingKeys from the right pane to the left

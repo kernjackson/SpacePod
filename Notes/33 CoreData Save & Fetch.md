@@ -2,6 +2,8 @@
 
 We've done the ground work in the last few videos, and we're finally ready to save to and fetch from our CoreData store.
 
+[YouTube](https://youtu.be/MsrhQ3VzOIQ)
+
 ## Steps
 
 1. Add `.environment` and specify `\.managedObjectContext` keypath

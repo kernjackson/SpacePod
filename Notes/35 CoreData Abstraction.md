@@ -2,6 +2,8 @@
 
 Our PodListView and CoreData are tightly coupled. Let's create a Pods Controller that to handle networking and persistence.
 
+[YouTube](https://youtu.be/Z1wG2LThl3Q)
+
 ## Steps
 
 1. Move FetchRequest to Pod+Extension

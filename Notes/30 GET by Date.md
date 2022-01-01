@@ -2,6 +2,8 @@
 
 Let's update our networking code to GET Pods by date, and then display them from newest to oldest.
 
+[YouTube](https://youtu.be/0TeCKUaDUys)
+
 ## Date+Extensions
 
 ```swift

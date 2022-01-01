@@ -8,41 +8,41 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 
 ## Installments
 
-01. Project Overview [video](https://youtu.be/NLQhP-35sbY)
-02. Try Await URLSession [video](https://youtu.be/oQU5sept-QY)
-03. Pod Model with Paw and Ducky [video](https://youtu.be/2kADKAKf8xM)
-04. Pod Default [video](https://youtu.be/0V2ZKxlsGhs)
-05. MVP SwiftUI List View [video](https://youtu.be/KMz0HdD3DTI)
-06. AsyncImage [video](https://youtu.be/GogrWQ5blCU)
-07. Task GET Pod [video](https://youtu.be/dboEB8_qOUQ)
-08. Push to GitHub [video](https://youtu.be/2c9Mg6vyuco)
-09. Placeholder Icon with Bakery [video](https://youtu.be/j-CJ0YyPDUo)
-10. Optionals [video](https://youtu.be/WGtPWVPJgzc)
-11. Exploring the API with Paw [video](https://youtu.be/3V7MuFhMjgU)
-12. Json Payloads with Curl and Python [video](https://youtu.be/J7WI3QqQJEM)
-13. From JSON to Data to Pod with Tests [video](https://youtu.be/44ZOROuZJ9U)
-14. Adding a Read Me Markdown File [video](https://youtu.be/OSSodYCbdIY)
-15. Decoding and Testing Optional Arrays and Properties [video](https://youtu.be/1WsIX7cRD5w)
-16. Display Pods with SwiftUI's NavigationView, List, and NavigationLink [video](https://youtu.be/Ca5UaZXeD-0) Bug Fixes [video](https://youtu.be/g48Hne1_nVg)
+01. Project Overview [YouTube](https://youtu.be/NLQhP-35sbY)
+02. Try Await URLSession [YouTube](https://youtu.be/oQU5sept-QY)
+03. Pod Model with Paw and Ducky [YouTube](https://youtu.be/2kADKAKf8xM)
+04. Pod Default [YouTube](https://youtu.be/0V2ZKxlsGhs)
+05. MVP SwiftUI List View [YouTube](https://youtu.be/KMz0HdD3DTI)
+06. AsyncImage [YouTube](https://youtu.be/GogrWQ5blCU)
+07. Task GET Pod [YouTube](https://youtu.be/dboEB8_qOUQ)
+08. Push to GitHub [YouTube](https://youtu.be/2c9Mg6vyuco)
+09. Placeholder Icon with Bakery [YouTube](https://youtu.be/j-CJ0YyPDUo)
+10. Optionals [YouTube](https://youtu.be/WGtPWVPJgzc)
+11. Exploring the API with Paw [YouTube](https://youtu.be/3V7MuFhMjgU)
+12. Json Payloads with Curl and Python [YouTube](https://youtu.be/J7WI3QqQJEM)
+13. From JSON to Data to Pod with Tests [YouTube](https://youtu.be/44ZOROuZJ9U)
+14. Adding a Read Me Markdown File [YouTube](https://youtu.be/OSSodYCbdIY)
+15. Decoding and Testing Optional Arrays and Properties [YouTube](https://youtu.be/1WsIX7cRD5w)
+16. Display Pods with SwiftUI's NavigationView, List, and NavigationLink [YouTube](https://youtu.be/Ca5UaZXeD-0) Bug Fixes [YouTube](https://youtu.be/g48Hne1_nVg)
 17. [Adding and Ignoring App Secrets](https://github.com/kernjackson/SpacePod/blob/8247888437c445d8bad0338e2dd49e200e527db4/Notes/17%20App%20Secrets.md)
 18. [Decoding & Formatting Dates](https://github.com/kernjackson/SpacePod/blob/8247888437c445d8bad0338e2dd49e200e527db4/Notes/18%20Decode%20&%20Format%20Dates.md)
 19. [AsyncImagePhase, Resizing, and Scaling](https://github.com/kernjackson/SpacePod/blob/5216cd200e09d9c8556535e7c32f3be1202dec08/Notes/19%20AsyncImagePhase.md)
-20. Displaying Optional Video Thumbnails [video](https://youtu.be/re2bBrFOw5Q)
-21. SwiftUI 'Split View' [video](https://youtu.be/90BKOqN4dNE)
-22. Multiple Previews [video](https://youtu.be/R59FkVIxtGs)
-23. Obfuscated Logging [video](https://youtu.be/BMhwijis-ps)
-24. Infinite List [video](https://youtu.be/bQO--MQxXRo)
-25. Multitasking Support [video](https://youtu.be/iOrGEIHLiFk)
-26. AccentColor [video](https://youtu.be/GyxV8YCmm28)
-27. CoreData Model [video](https://youtu.be/HjsSj4Niog8)
-28. CoreData Persistence [video](https://youtu.be/vsIyRSRBhG0)
-29. CodingKeys [video](https://youtu.be/svbVDYDc_lA)
-30. GET by Date [video](https://youtu.be/0TeCKUaDUys)
-31. Required Init [video](https://youtu.be/FqV8eGpnmSw)
-32. CoreData Decodable [video](https://youtu.be/jKtrN585hw8)
-33. CoreData Save & Fetch [video](https://youtu.be/MsrhQ3VzOIQ)
-34. CoreData Unique Attributes [video](https://youtu.be/VIzapeVIr0A)
-35. CoreData Abstraction [video](https://youtu.be/Z1wG2LThl3Q)
+20. Displaying Optional Video Thumbnails
+21. SwiftUI 'Split View' 
+22. Multiple Previews
+23. Obfuscated Logging
+24. Infinite List
+25. Multitasking Support
+26. AccentColor
+27. CoreData Model
+28. CoreData Persistence
+29. CodingKeys
+30. GET by Date
+31. Required Init
+32. CoreData Decodable
+33. CoreData Save & Fetch
+34. CoreData Unique Attributes
+35. CoreData Abstraction
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLWebBadhYmf9NRIJXE_hBGTtyFwrxrXJ3)
 

@@ -2,6 +2,8 @@
 
 We're still making some behind the scenes changes so that we can cache api responses using CoreData. Today we'll change Pod from a `struct` to a `class`.
 
+[YouTube](https://youtu.be/FqV8eGpnmSw)
+
 1. Change Pod form a `struct` to a `class`
 2. Remove `Hashable` conformance
 3. Add `Identifiable` conformance

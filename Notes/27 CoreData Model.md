@@ -2,6 +2,8 @@
 
 So far we've just been hitting the API anytime we need to display some day. Let's create a Core Data model that will let us cache the JSON payload.
 
+[YouTube](https://youtu.be/HjsSj4Niog8)
+
 ## Problem
 
 We're hitting the API everytime we need some data.

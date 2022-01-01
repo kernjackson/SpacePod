@@ -2,7 +2,11 @@
 
 Previously we added a "Fetching Pods..." view whenever we don't have any pods to display. This works well enough on iPads, but results in a blank screen on iPhones. Let's fix the problem and add some additional previews along the way.
 
-1. Fetching pods doesn't show on iPhones in portrait mode
+## Problem
+
+Fetching pods doesn't show on iPhones in portrait mode
+
+[YouTube](https://youtu.be/R59FkVIxtGs)
 
 ## Goals
 

@@ -2,6 +2,8 @@
 
 Let's make our app stand out with custom accent colors, and verify that it works nicely in light, dark, and high contrast mode.
 
+[YouTube](https://youtu.be/GyxV8YCmm28)
+
 ## Deprecated Way
 
 This method still works, but has been deprecated. Let's define the AccentColor in Assets instead.

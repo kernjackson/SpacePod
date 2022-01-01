@@ -1,5 +1,7 @@
 # SpacePod 21 SwiftUI 'Split View'
 
+[YouTube](https://youtu.be/90BKOqN4dNE)
+
 ## Issues
 
 1. Large empty area when app launches

@@ -1,6 +1,8 @@
 # SpacePod 23 Obfuscated Logging
 
-Whenever we run our app it debug mode it prints every network request and response. The request and response contain the apiKey. It's only a matter of time until I accidentally leak it during a screencast. Let's fix that right now by replacing all occurrences of our apiKey with something else. 
+Whenever we run our app it debug mode it prints every network request and response. The request and response contain the apiKey. It's only a matter of time until I accidentally leak it during a screencast. Let's fix that right now by replacing all occurrences of our apiKey with something else.
+
+[YouTube](https://youtu.be/BMhwijis-ps)
 
 ## Problem
 

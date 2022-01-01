@@ -1,5 +1,7 @@
 # SpacePod 20 Video Thumbnails
 
+[YouTube](https://youtu.be/re2bBrFOw5Q)
+
 ## Problem
 
 Some PODs don't display an image. Sometimes there's nothing to show, but typically it means the "Picture Of the Day" is something else like a video. Fortunately The API can optionally return a thumbnail image. Unfortunately we have to do a little work to know when to use what.

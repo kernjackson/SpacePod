@@ -2,6 +2,8 @@
 
 Previously we added a CoreData model named `Nasa`. Let's rename it to `Pod` to mirror our existing object, and then work through the resulting build errors so that our app is using the new object.
 
+[YouTube](https://youtu.be/jKtrN585hw8)
+
 ## Goals
 
 1. Mirror CoreData Model and Pod Model
