@@ -23,6 +23,7 @@ struct PodDetailView: View {
                 Text(explanation)
                     .padding(.vertical)
             }
+            WebLink(date: pod.date)
         }
     }
 }

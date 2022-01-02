@@ -17,6 +17,7 @@
 		EF1D6A53277AAE6F009399FA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF1D6A51277AAE6F009399FA /* Model.xcdatamodeld */; };
 		EF1D6ADD277BCDC1009399FA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D6ADC277BCDC1009399FA /* Persistence.swift */; };
 		EF2C91C327740E35002BBCED /* Array+Uniqued.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2C91C227740E35002BBCED /* Array+Uniqued.swift */; };
+		EF5EFAD527825BB900030154 /* WebLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EFAD427825BB900030154 /* WebLink.swift */; };
 		EF68F390276A837C003A0BD9 /* PodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68F38F276A837C003A0BD9 /* PodDetailView.swift */; };
 		EF68F392276A83D6003A0BD9 /* PodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68F391276A83D6003A0BD9 /* PodListView.swift */; };
 		EF704C4A276D61A600CE5485 /* Secrets.json in Resources */ = {isa = PBXBuildFile; fileRef = EF704C49276D61A500CE5485 /* Secrets.json */; };
@@ -82,6 +83,8 @@
 		EF2C91C02773FE60002BBCED /* 23 Obfuscated Logging.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "23 Obfuscated Logging.md"; sourceTree = "<group>"; };
 		EF2C91C127740837002BBCED /* 24 Infinite List.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "24 Infinite List.md"; sourceTree = "<group>"; };
 		EF2C91C227740E35002BBCED /* Array+Uniqued.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Uniqued.swift"; sourceTree = "<group>"; };
+		EF5EFAD427825BB900030154 /* WebLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLink.swift; sourceTree = "<group>"; };
+		EF5EFAD627825DB900030154 /* 35 Web Links.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "35 Web Links.md"; sourceTree = "<group>"; };
 		EF68F38F276A837C003A0BD9 /* PodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodDetailView.swift; sourceTree = "<group>"; };
 		EF68F391276A83D6003A0BD9 /* PodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodListView.swift; sourceTree = "<group>"; };
 		EF704C48276D614400CE5485 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -214,6 +217,7 @@
 				EFFBBD12277E578E00A9E858 /* 32 CoreData Decodable.md */,
 				EFB0C0B2277F5E14001F8EE0 /* 33 CoreData Save & Fetch.md */,
 				EFB0C0B3277F6284001F8EE0 /* 34 CoreData Unique Attributes.md */,
+				EF5EFAD627825DB900030154 /* 35 Web Links.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -227,6 +231,7 @@
 				EF704C6A27700F4D00CE5485 /* PodImageView.swift */,
 				EF704C6C2770102C00CE5485 /* ErrorView.swift */,
 				EF704C6E277011B300CE5485 /* ImageRowView.swift */,
+				EF5EFAD427825BB900030154 /* WebLink.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -410,6 +415,7 @@
 				EF1D6ADD277BCDC1009399FA /* Persistence.swift in Sources */,
 				EF704C55276D790D00CE5485 /* DateFormatter+Extensions.swift in Sources */,
 				EFD4327D27680BEB00E3E658 /* Data+Extensions.swift in Sources */,
+				EF5EFAD527825BB900030154 /* WebLink.swift in Sources */,
 				EF0B5AF0275EFD6A0007329F /* Pod.swift in Sources */,
 				EF68F392276A83D6003A0BD9 /* PodListView.swift in Sources */,
 				EF068DB32780EBF900F9B483 /* Pods.swift in Sources */,

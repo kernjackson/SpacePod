@@ -7,7 +7,14 @@ extension DateFormatter {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd"
         formatter.calendar = Calendar(identifier: .iso8601)
-        formatter.timeZone = TimeZone(secondsFromGMT: 0)
+        return formatter
+    }()
+
+    /// Formats date as "yyMMdd" (e.g. 211218)
+    static let yyMMdd: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyMMdd"
+        formatter.calendar = Calendar(identifier: .iso8601)
         return formatter
     }()
 
@@ -17,7 +24,6 @@ extension DateFormatter {
         formatter.dateStyle = .long
         formatter.timeStyle = .none
         formatter.calendar = Calendar(identifier: .iso8601)
-        formatter.timeZone = TimeZone(secondsFromGMT: 0)
         return formatter
     }()
 }
