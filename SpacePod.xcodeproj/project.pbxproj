@@ -58,7 +58,6 @@
 
 /* Begin PBXFileReference section */
 		EF068DB22780EBF900F9B483 /* Pods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pods.swift; sourceTree = "<group>"; };
-		EF068DB42780F72800F9B483 /* 35 CoreData Abstraction.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "35 CoreData Abstraction.md"; sourceTree = "<group>"; };
 		EF0B5ADE275EEEDB0007329F /* SpacePod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpacePod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0B5AE1275EEEDB0007329F /* SpacePodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePodApp.swift; sourceTree = "<group>"; };
 		EF0B5AE3275EEEDB0007329F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -215,7 +214,6 @@
 				EFFBBD12277E578E00A9E858 /* 32 CoreData Decodable.md */,
 				EFB0C0B2277F5E14001F8EE0 /* 33 CoreData Save & Fetch.md */,
 				EFB0C0B3277F6284001F8EE0 /* 34 CoreData Unique Attributes.md */,
-				EF068DB42780F72800F9B483 /* 35 CoreData Abstraction.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";

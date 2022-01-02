@@ -6,8 +6,11 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-//            let newItem = NASA(context: viewContext)
-//            newItem.timestamp = Date()
+
+        var newPod = Pod(context: viewContext)
+        newPod.title = "Preview Title"
+        newPod.date = Date()
+
         do {
             try viewContext.save()
         } catch {
