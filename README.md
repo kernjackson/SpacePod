@@ -42,7 +42,8 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 32. [CoreData Decodable](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/32%20CoreData%20Decodable.md)
 33. [CoreData Save & Fetch](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/33%20CoreData%20Save%20&%20Fetch.md)
 34. [CoreData Unique Attributes](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/34%20CoreData%20Unique%20Attributes.md)
-35. Web Links
+35. [SwiftUI Web Links](https://youtu.be/iJsB6CTcj74)
+36. [URLSession GET New & Old](https://youtu.be/7rnFMaOSpTY)
 
 ## Videos
 
