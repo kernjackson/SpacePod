@@ -10,10 +10,10 @@ class Network {
     let apiKey = "?api_key=" + (File.data(from: "Secrets", withExtension: .json)?.toSecret?.apiKey.description ?? "DEMO_KEY")
     let count = "&count=" + "20"
     let thumbs = "&thumbs=" + "true"
-    let start = "&start_date=" + "2021-12-01"
-    let end = "&end_date=" + Date().yyyy_MM_dd
 
-    func getPods() async -> [Pod]? {
+    func getPods(_ from: Date, _ to: Date) async -> [Pod]? {
+        let start = "&start_date=" + from.yyyy_MM_dd
+        let end = "&end_date=" + to.yyyy_MM_dd
         let url = URL(string: "\(url.api)\(apiKey)\(start)\(end)\(thumbs)")!
         do {
             let request = URLRequest(url: url)

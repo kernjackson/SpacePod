@@ -20,4 +20,9 @@ extension Date {
     var webUrl: URL? {
         return URL(string: url.web + self.yyMMdd + ".html")
     }
+
+    /// Returns the date n days ago
+    func previous(_ days: Int) -> Date {
+        return Calendar.current.date(byAdding: DateComponents(day: -days), to: self) ?? self
+    }
 }
