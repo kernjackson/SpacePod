@@ -1,8 +1,9 @@
 import SwiftUI
 
 struct PodImageView: View {
-    var url: URL
+    var url: URL?
     var body: some View {
+        if url != nil {
         AsyncImage(url: url) { phase in
             switch phase {
             case .empty:                ProgressView()
@@ -10,6 +11,7 @@ struct PodImageView: View {
             case .failure(_):           ErrorView()
             @unknown default:           EmptyView()
             }
+        }
         }
     }
 }

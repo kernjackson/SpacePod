@@ -1,8 +1,12 @@
 import Foundation
 
+struct url {
+    static let api = "https://api.nasa.gov/planetary/apod"
+    static let web = "https://apod.nasa.gov/apod/ap"
+}
+
 class Network {
 
-    let baseUrl = "https://api.nasa.gov/planetary/apod"
     let apiKey = "?api_key=" + (File.data(from: "Secrets", withExtension: .json)?.toSecret?.apiKey.description ?? "DEMO_KEY")
     let count = "&count=" + "20"
     let thumbs = "&thumbs=" + "true"
@@ -10,7 +14,7 @@ class Network {
     let end = "&end_date=" + Date().yyyy_MM_dd
 
     func getPods() async -> [Pod]? {
-        let url = URL(string: "\(baseUrl)\(apiKey)\(start)\(end)\(thumbs)")!
+        let url = URL(string: "\(url.api)\(apiKey)\(start)\(end)\(thumbs)")!
         do {
             let request = URLRequest(url: url)
             log("🌎 request: " + request.debugDescription)

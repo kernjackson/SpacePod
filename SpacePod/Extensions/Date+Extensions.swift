@@ -18,6 +18,6 @@ extension Date {
 
     /// Returns the web page for date (e.g. https://apod.nasa.gov/apod/ap220102)
     var webUrl: URL? {
-        return URL(string: "https://apod.nasa.gov/apod/ap" + self.yyMMdd + ".html")
+        return URL(string: url.web + self.yyMMdd + ".html")
     }
 }

@@ -2,14 +2,17 @@
 
 The api doesn't fully support all the features of the site. Let's provide a Safari link in the details view of each pod.
 
+[YouTube](https://youtu.be/iJsB6CTcj74)
+
 ### DateFormatter+Extensions.swift
 
 1. Delete `formatter.timeZone = TimeZone(secondsFromGMT: 0)` (bug fix)
-2. Add `yyMMdd` formatter to `DateFormatter+Extensions`
-3. Add `yyMMdd` to `Date+Extensions`
-4. Add `webUrl` to `Date+Extensions`
-5. Create `WebLinkView`
-6. Add `WebLinkView` to `PodDetailView`
+2. New Struct `url` in `Network`
+3. Add `yyMMdd` formatter to `DateFormatter+Extensions`
+4. Add `yyMMdd` to `Date+Extensions`
+5. Add `webUrl` to `Date+Extensions`
+6. Create `WebLinkView`
+7. Add `WebLinkView` to `PodDetailView`
 
 ### 1, 2 DateFormatter+Extensions
 
@@ -40,15 +43,27 @@ var webUrl: URL? {
 ### 5 WebLink.swift
 
 ```swift
+import SwiftUI
+
+/// Links to the web page for the given Pod or nil
 struct WebLink: View {
     var date: Date?
 
     var body: some View {
-        if let page = date?.webUrl {
-            Link(destination: page) {
+        if let url = date?.webUrl {
+            Link(destination: url) {
                 Label("Open in Safari", systemImage: "safari.fill")
                     .symbolRenderingMode(.hierarchical)
             }
+        }
+    }
+}
+
+struct WebLink_Previews: PreviewProvider {
+    static var previews: some View {
+        List {
+            Section(header: Text("Today")) { WebLink(date: Date()) }
+            Section(header: Text("NIL")) { WebLink() }
         }
     }
 }

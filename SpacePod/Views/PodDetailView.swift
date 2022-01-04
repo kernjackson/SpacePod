@@ -15,6 +15,7 @@ struct PodDetailView: View {
             }
             if let copyright = pod.copyright {
                 Label(copyright, systemImage: "c.circle.fill")
+                    .symbolRenderingMode(.hierarchical)
             }
             if let date = pod.date {
                 Label(date.long, systemImage: "calendar")

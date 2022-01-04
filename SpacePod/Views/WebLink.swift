@@ -1,6 +1,5 @@
 import SwiftUI
 
-/// Links to the web page for the given Pod or nil
 struct WebLink: View {
     var date: Date?
 
@@ -17,8 +16,8 @@ struct WebLink: View {
 struct WebLink_Previews: PreviewProvider {
     static var previews: some View {
         List {
-            WebLink()
-            WebLink(date: Date())
+            Section(header: Text("Today")) { WebLink(date: Date()) }
+            Section(header: Text("NIL")) { WebLink() }
         }
     }
 }
