@@ -1,12 +1,9 @@
-# SpacePod 36 Smarter Date Fetching
+# SpacePod 36 URLSession GET New & More
 
 So far we've just been showing pods from today to December 1, 2021. Let's update our app to...
 
 1. GET newer pods (than what's in the DB)
 2. GET older pods when the user requests (taps for more)
-3. What can we do about dates that don't have a pod? (gaps)
-
-[YouTube](https://youtu.be/7rnFMaOSpTY)
 
 ## Steps
 
@@ -34,7 +31,7 @@ Next we'll modify our getPods function to take `from` and `to` Date parameters.
 
 ```swift
 ...
-func getPods(_ from: Date, _ to: Date) async -> [Pod]? {
+unc getPods(_ from: Date, _ to: Date) async -> [Pod]? {
     let start = "&start_date=" + from.yyyy_MM_dd
     let end = "&end_date=" + to.yyyy_MM_dd
     guard let url = URL(string: "\(url.api)\(apiKey)\(start)\(end)\(thumbs)") else { return nil }
@@ -134,4 +131,19 @@ var pods: FetchedResults<Pod>
 
 1. Invalid dates get an error back from the API (e.g. 2021-02-29)
 
-https://www.appsdeveloperblog.com/add-days-months-years-to-current-date-in-swift/
+## Bug Fix
+
+The changes depicted in the video result in a failure to load on first launch. The following changes to PodListView fix the issue.
+
+### PodListView
+
+```swift
+.task {
+    if pods.isEmpty { await getOld() }
+}
+```
+
+```swift
+private func getOld() async {
+    let to = pods.last?.date?.previous(1) ?? Date()
+```

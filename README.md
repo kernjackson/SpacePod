@@ -44,6 +44,7 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 34. [CoreData Unique Attributes](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/34%20CoreData%20Unique%20Attributes.md)
 35. [SwiftUI Web Links](https://youtu.be/iJsB6CTcj74)
 36. [URLSession GET New & Old](https://youtu.be/7rnFMaOSpTY)
+37. PodLiveView Refactor
 
 ## Videos
 

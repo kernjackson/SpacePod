@@ -114,6 +114,7 @@
 		EFD4328F27680CB200E3E658 /* SpacePodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacePodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD4329127680CB200E3E658 /* SpacePodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePodTests.swift; sourceTree = "<group>"; };
 		EFD432982768237C00E3E658 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EFE819CD278618E100A4AEB6 /* 37 PodListView Refactor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "37 PodListView Refactor.md"; sourceTree = "<group>"; };
 		EFEABEAC2774FA6E009E0214 /* 25 Multitasking.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "25 Multitasking.md"; sourceTree = "<group>"; };
 		EFED6BD727695D6C00C19797 /* 200-no-urls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-urls.json"; sourceTree = "<group>"; };
 		EFED6BD9276A319200C19797 /* 200-copyright-incorrect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-copyright-incorrect.json"; sourceTree = "<group>"; };
@@ -217,6 +218,7 @@
 				EFB0C0B3277F6284001F8EE0 /* 34 CoreData Unique Attributes.md */,
 				EF5EFAD627825DB900030154 /* 35 Web Links.md */,
 				EFF505522784E87000758494 /* 36 GET Newest & Oldest.md */,
+				EFE819CD278618E100A4AEB6 /* 37 PodListView Refactor.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";

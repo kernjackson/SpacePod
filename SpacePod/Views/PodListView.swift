@@ -23,7 +23,7 @@ struct PodListView: View {
 #if DEBUG
                         .swipeActions {
                             Button {
-                                delete(pod)
+                                PersistenceController.shared.delete(pod)
                             } label: {
                                 Label("Delete", systemImage: "trash")
                             }
@@ -35,7 +35,7 @@ struct PodListView: View {
 #if DEBUG
                     Section {
                         Button("GET New") { Task { await getNew() } }
-                        Button("GET Old") { Task { await getOld() } }
+                        Button("GET Old") { Task { await getMore() } }
                     }
 #endif
                 }
@@ -52,7 +52,7 @@ struct PodListView: View {
             }
         }
         .task {
-            if pods.isEmpty { await getNew() }
+            if pods.isEmpty { await getMore() }
         }
     }
 }
@@ -75,34 +75,16 @@ extension PodListView {
         let compare = Calendar.current.compare(from, to: to, toGranularity: .day)
         if compare == .orderedAscending {
             if await Network().getPods(from, to) != nil {
-                save()
+                PersistenceController.shared.save()
             }
         }
     }
 
-    private func getOld() async {
-        guard let to = pods.last?.date?.previous(1) else { return }
+    private func getMore() async {
+        let to = pods.last?.date?.previous(1) ?? Date()
         let from = to.previous(30)
         if await Network().getPods(from, to) != nil {
-            save()
-        }
-    }
-}
-
-// MARK: - CoreData
-
-extension PodListView {
-    private func delete(_ pod: Pod) {
-        viewContext.delete(pod)
-        save()
-    }
-
-    private func save() {
-        do {
-            try viewContext.save()
-        } catch {
-            let nsError = error as NSError
-            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+            PersistenceController.shared.save()
         }
     }
 }
