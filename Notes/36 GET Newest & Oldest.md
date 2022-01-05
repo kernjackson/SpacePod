@@ -5,6 +5,8 @@ So far we've just been showing pods from today to December 1, 2021. Let's update
 1. GET newer pods (than what's in the DB)
 2. GET older pods when the user requests (taps for more)
 
+[YouTube](https://youtu.be/7rnFMaOSpTY)
+
 ## Steps
 
 1. Date n days ago
