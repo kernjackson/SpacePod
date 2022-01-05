@@ -2,7 +2,7 @@
 
 We'll progressively build a small SwiftUI app that displays the NASA photo of the day. Each installment (commit, post, video) will be broken down into the smallest piece of work that I can imagine at the time. This repo will be the most concise part of the series as the videos will be strictly one take each.
 
-<img width="878" alt="Screenshot-iPhone13mini" src="https://user-images.githubusercontent.com/6172851/145913959-96b9b53f-5442-4714-a94e-8e0fb1af2b79.png">
+![light and dark jupiter](https://user-images.githubusercontent.com/6172851/148271673-d38ee9ad-999f-449e-8134-d2e3b93a5c6f.jpeg)
 
 [kern.micro.blog](https://kern.micro.blog)
 
