@@ -39,7 +39,6 @@ struct PodListView: View {
                     }
 #endif
                 }
-                .navigationTitle("SpacePod")
                 .navigationBarTitleDisplayMode(.inline)
                 .refreshable {
                     await getNew()

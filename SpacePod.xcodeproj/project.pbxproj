@@ -81,6 +81,7 @@
 		EF2C91C02773FE60002BBCED /* 23 Obfuscated Logging.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "23 Obfuscated Logging.md"; sourceTree = "<group>"; };
 		EF2C91C127740837002BBCED /* 24 Infinite List.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "24 Infinite List.md"; sourceTree = "<group>"; };
 		EF2C91C227740E35002BBCED /* Array+Uniqued.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Uniqued.swift"; sourceTree = "<group>"; };
+		EF3F43022787C76700020C10 /* 38 Debugging with Console.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "38 Debugging with Console.md"; sourceTree = "<group>"; };
 		EF5EFAD627825DB900030154 /* 35 Web Links.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "35 Web Links.md"; sourceTree = "<group>"; };
 		EF68F38F276A837C003A0BD9 /* PodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodDetailView.swift; sourceTree = "<group>"; };
 		EF68F391276A83D6003A0BD9 /* PodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodListView.swift; sourceTree = "<group>"; };
@@ -219,6 +220,7 @@
 				EF5EFAD627825DB900030154 /* 35 Web Links.md */,
 				EFF505522784E87000758494 /* 36 GET Newest & Oldest.md */,
 				EFE819CD278618E100A4AEB6 /* 37 PodListView Refactor.md */,
+				EF3F43022787C76700020C10 /* 38 Debugging with Console.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
