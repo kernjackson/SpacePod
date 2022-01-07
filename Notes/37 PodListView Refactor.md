@@ -2,6 +2,8 @@
 
 The changes depicted in 36 result in a failure to load on first launch. The following changes to PodListView fix the issue, and begin the work of decluttering our `PodListView`.
 
+[YouTube](https://youtu.be/kwmLzIFsHy4)
+
 ## Goals
 
 1. Fix first launch bug introduced last time
