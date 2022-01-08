@@ -8,10 +8,18 @@ Let's modify the UI by adding a Sidebar and showing images in our list.
 2. Beautify app
 3. Clarify navigation
 
+[YouTube](https://youtu.be/Rb-A00VpFRI)
+
 ## Steps
 
-1. Add a Sidebar
-2. Display Images right away
+1. Use Pod.recent request
+2. Add `SidebarView`
+3. Replace List `Text` with our `PodDetailView`
+4. Move app structure to `ContentView`
+5. Change `List` to `Section` in PodDetailView
+6. Switch on pods
+7. Split our list view into `loadingView` and `listView`
+8. Set the environment for our `Content` and `SidebarView` previews
 
 ```swift
 struct SideBarView: View {
