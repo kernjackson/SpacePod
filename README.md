@@ -46,6 +46,7 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 36. [URLSession GET New & Old](https://github.com/kernjackson/SpacePod/blob/62dfa9244b0396695a3f730a975fa39c349d4d3b/Notes/36%20GET%20Newest%20&%20Oldest.md)
 37. [Pod List View Refactor](https://github.com/kernjackson/SpacePod/blob/73fdb34f9550b6cc7c715eb67754c372eb31f58e/Notes/37%20PodListView%20Refactor.md)
 38. [Debugging with Console](https://github.com/kernjackson/SpacePod/blob/b46b002a232376eea46a5ef62d05c16ead8dbdc0/Notes/38%20Debugging%20with%20Console.md)
+39. [Sidebar Navigation]
 
 ## Videos
 

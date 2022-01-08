@@ -47,7 +47,7 @@ extension CodingUserInfoKey {
 extension Pod {
     static var recent: NSFetchRequest<Pod> {
         let request: NSFetchRequest<Pod> = Pod.fetchRequest()
-        request.sortDescriptors = [NSSortDescriptor(key: "date", ascending: false)]
+        request.sortDescriptors = [NSSortDescriptor(keyPath: \Pod.date, ascending: false)]
         return request
     }
 }

@@ -2,8 +2,9 @@ import SwiftUI
 
 struct PodDetailView: View {
     @State var pod: Pod
+    
     var body: some View {
-        List {
+        Section {
             if let url = pod.thumbnailUrl ?? pod.url {
                 PodImageView(url: url)
             }

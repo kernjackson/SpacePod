@@ -42,6 +42,7 @@
 		EFD4327B27680B3000E3E658 /* File+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4327A27680B3000E3E658 /* File+Extensions.swift */; };
 		EFD4327D27680BEB00E3E658 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4327C27680BEB00E3E658 /* Data+Extensions.swift */; };
 		EFD4329227680CB200E3E658 /* SpacePodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4329127680CB200E3E658 /* SpacePodTests.swift */; };
+		EFE4FCE8278A3F6500ECE3BD /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE4FCE7278A3F6500ECE3BD /* SidebarView.swift */; };
 		EFED6BD827695D6C00C19797 /* 200-no-urls.json in Resources */ = {isa = PBXBuildFile; fileRef = EFED6BD727695D6C00C19797 /* 200-no-urls.json */; };
 		EFED6BDA276A319300C19797 /* 200-copyright-incorrect.json in Resources */ = {isa = PBXBuildFile; fileRef = EFED6BD9276A319200C19797 /* 200-copyright-incorrect.json */; };
 /* End PBXBuildFile section */
@@ -115,6 +116,8 @@
 		EFD4328F27680CB200E3E658 /* SpacePodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacePodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD4329127680CB200E3E658 /* SpacePodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePodTests.swift; sourceTree = "<group>"; };
 		EFD432982768237C00E3E658 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EFE4FCE7278A3F6500ECE3BD /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		EFE4FCE9278A47B900ECE3BD /* 39 Sidebar Navigation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "39 Sidebar Navigation.md"; sourceTree = "<group>"; };
 		EFE819CD278618E100A4AEB6 /* 37 PodListView Refactor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "37 PodListView Refactor.md"; sourceTree = "<group>"; };
 		EFEABEAC2774FA6E009E0214 /* 25 Multitasking.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "25 Multitasking.md"; sourceTree = "<group>"; };
 		EFED6BD727695D6C00C19797 /* 200-no-urls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-urls.json"; sourceTree = "<group>"; };
@@ -221,6 +224,7 @@
 				EFF505522784E87000758494 /* 36 GET Newest & Oldest.md */,
 				EFE819CD278618E100A4AEB6 /* 37 PodListView Refactor.md */,
 				EF3F43022787C76700020C10 /* 38 Debugging with Console.md */,
+				EFE4FCE9278A47B900ECE3BD /* 39 Sidebar Navigation.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -235,6 +239,7 @@
 				EF704C6C2770102C00CE5485 /* ErrorView.swift */,
 				EF704C6E277011B300CE5485 /* ImageRowView.swift */,
 				EFA5EB032783B0C7005FA2BF /* WebLink.swift */,
+				EFE4FCE7278A3F6500ECE3BD /* SidebarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -423,6 +428,7 @@
 				EF68F392276A83D6003A0BD9 /* PodListView.swift in Sources */,
 				EF704C6B27700F4D00CE5485 /* PodImageView.swift in Sources */,
 				EF704C6D2770102C00CE5485 /* ErrorView.swift in Sources */,
+				EFE4FCE8278A3F6500ECE3BD /* SidebarView.swift in Sources */,
 				EF704C4D276D620C00CE5485 /* Secret.swift in Sources */,
 				EFD4327B27680B3000E3E658 /* File+Extensions.swift in Sources */,
 			);

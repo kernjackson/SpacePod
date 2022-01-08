@@ -5,53 +5,36 @@ import SwiftUI
 struct PodListView: View {
 
     @Environment(\.managedObjectContext) private var viewContext
-    @FetchRequest(entity: Pod.entity(),
-                  sortDescriptors: [NSSortDescriptor(key: "date", ascending: false)],
-                  predicate: nil,
-                  animation: .default)
+    @FetchRequest(fetchRequest: Pod.recent, animation: .default)
     var pods: FetchedResults<Pod>
 
     var body: some View {
-        NavigationView {
 
-            if let pod = pods.first {
-                List {
-                    ForEach(pods, id: \.id) { pod in
-                        NavigationLink(destination: PodDetailView(pod: pod)) {
-                            Text(pod.title ?? pod.date?.long ?? "")
-                        }
-#if DEBUG
-                        .swipeActions {
-                            Button {
-                                PersistenceController.shared.delete(pod)
-                            } label: {
-                                Label("Delete", systemImage: "trash")
-                            }
-                            .tint(.red)
+        switch pods {
+        case nil: loadingView
+        default:  listView
+        }
+    }
 
-                        }
-#endif
-                    }
-#if DEBUG
-                    Section {
-                        Button("GET New") { Task { await getNew() } }
-                        Button("GET Old") { Task { await getMore() } }
-                    }
-#endif
-                }
-                .navigationBarTitleDisplayMode(.inline)
-                .refreshable {
-                    await getNew()
-                }
+    var loadingView: some View {
+        Text("Fetching Pods...")
+            .task {
+                if pods.isEmpty { await getMore() }
+            }
+    }
+
+    var listView: some View {
+        List {
+            ForEach(pods, id: \.id) { pod in
                 PodDetailView(pod: pod)
-
-            } else {
-                Text("Fetching Pods...")
-                Text("Fetching Pods...")
+            }
+            Section {
+                Button("GET More") { Task { await getMore() } }
             }
         }
-        .task {
-            if pods.isEmpty { await getMore() }
+        .navigationBarTitleDisplayMode(.inline)
+        .refreshable {
+            await getNew()
         }
     }
 }
