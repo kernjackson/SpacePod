@@ -4,14 +4,19 @@ struct PodImageView: View {
     var url: URL?
     var body: some View {
         if url != nil {
-        AsyncImage(url: url) { phase in
-            switch phase {
-            case .empty:                ProgressView()
-            case .success(let image):   ImageRowView(image: image)
-            case .failure(_):           ErrorView()
-            @unknown default:           EmptyView()
+            AsyncImage(url: url) { phase in
+                switch phase {
+                case .empty:                ProgressView()
+                case .success(let image):   ImageRowView(image: image)
+                case .failure(let error):
+                    if error.localizedDescription == "cancelled" {
+                        PodImageView(url: url)
+                    } else {
+                        ErrorView(description: error.localizedDescription)
+                    }
+                @unknown default:           EmptyView()
+                }
             }
-        }
         }
     }
 }

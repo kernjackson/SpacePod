@@ -109,6 +109,7 @@
 		EF71163F2766C662002D5287 /* 200-no-copyright.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-copyright.json"; sourceTree = "<group>"; };
 		EF71164C2766CB17002D5287 /* 429-over-rate-limit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "429-over-rate-limit.json"; sourceTree = "<group>"; };
 		EFA5EB032783B0C7005FA2BF /* WebLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLink.swift; sourceTree = "<group>"; };
+		EFA8679B278B9938002609ED /* 40 AsyncImage Reload.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "40 AsyncImage Reload.md"; sourceTree = "<group>"; };
 		EFB0C0B2277F5E14001F8EE0 /* 33 CoreData Save & Fetch.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "33 CoreData Save & Fetch.md"; sourceTree = "<group>"; };
 		EFB0C0B3277F6284001F8EE0 /* 34 CoreData Unique Attributes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "34 CoreData Unique Attributes.md"; sourceTree = "<group>"; };
 		EFD4327A27680B3000E3E658 /* File+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "File+Extensions.swift"; sourceTree = "<group>"; };
@@ -225,6 +226,7 @@
 				EFE819CD278618E100A4AEB6 /* 37 PodListView Refactor.md */,
 				EF3F43022787C76700020C10 /* 38 Debugging with Console.md */,
 				EFE4FCE9278A47B900ECE3BD /* 39 Sidebar Navigation.md */,
+				EFA8679B278B9938002609ED /* 40 AsyncImage Reload.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
