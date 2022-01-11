@@ -35,8 +35,24 @@ struct CachedAsyncImage<Content>: View where Content: View {
     }
 }
 
-//struct CachedAsyncImage_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CachedAsyncImage()
-//    }
-//}
+struct CachedAsyncImage_Previews: PreviewProvider {
+
+    static let url = URL(string: "https://apod.nasa.gov/apod/image/2112/JwstLaunch_Arianespace_1080.jpg")!
+
+    static var previews: some View {
+        CachedAsyncImage(url: url) { phase in
+            switch phase {
+            case .empty:
+                ProgressView()
+            case .success(let image):
+                image
+                    .resizable()
+                    .aspectRatio(1.0, contentMode: .fit)
+            case .failure(let error):
+                ErrorView(description: error.localizedDescription)
+            @unknown default:
+                fatalError()
+            }
+        }
+    }
+}
