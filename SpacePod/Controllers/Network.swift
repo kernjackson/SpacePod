@@ -8,6 +8,8 @@ struct url {
 
 class Network {
 
+    static let shared = Network()
+
     let apiKey = "?api_key=" + (File.data(from: "Secrets", withExtension: .json)?.toSecret?.apiKey.description ?? "DEMO_KEY")
     let count = "&count=" + "20"
     let thumbs = "&thumbs=" + "true"

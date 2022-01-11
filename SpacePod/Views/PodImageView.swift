@@ -4,7 +4,7 @@ struct PodImageView: View {
     var url: URL?
     var body: some View {
         if let imageUrl = url {
-            AsyncImage(url: imageUrl) { phase in
+            CachedAsyncImage(url: imageUrl) { phase in
                 switch phase {
                 case .empty:                ProgressView()
                 case .success(let image):   ImageRowView(image: image)
