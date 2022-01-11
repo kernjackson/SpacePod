@@ -123,6 +123,9 @@
 		EFE3EE58278DF1EE00768B2F /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
 		EFE3EE5A278DF27800768B2F /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		EFE3EE60278E050E00768B2F /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
+		EFE3EE62278E098D00768B2F /* 41 URLSession Get Image.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "41 URLSession Get Image.md"; sourceTree = "<group>"; };
+		EFE3EE63278E09B700768B2F /* 43 CachedAsyncImage.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "43 CachedAsyncImage.md"; sourceTree = "<group>"; };
+		EFE3EE64278E09D900768B2F /* 42 Save & Open Images.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "42 Save & Open Images.md"; sourceTree = "<group>"; };
 		EFE4FCE7278A3F6500ECE3BD /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		EFE4FCE9278A47B900ECE3BD /* 39 Sidebar Navigation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "39 Sidebar Navigation.md"; sourceTree = "<group>"; };
 		EFE819CD278618E100A4AEB6 /* 37 PodListView Refactor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "37 PodListView Refactor.md"; sourceTree = "<group>"; };
@@ -233,6 +236,9 @@
 				EF3F43022787C76700020C10 /* 38 Debugging with Console.md */,
 				EFE4FCE9278A47B900ECE3BD /* 39 Sidebar Navigation.md */,
 				EFA8679B278B9938002609ED /* 40 AsyncImage Reload.md */,
+				EFE3EE62278E098D00768B2F /* 41 URLSession Get Image.md */,
+				EFE3EE64278E09D900768B2F /* 42 Save & Open Images.md */,
+				EFE3EE63278E09B700768B2F /* 43 CachedAsyncImage.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";

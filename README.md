@@ -48,6 +48,9 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 38. [Debugging with Console](https://github.com/kernjackson/SpacePod/blob/b46b002a232376eea46a5ef62d05c16ead8dbdc0/Notes/38%20Debugging%20with%20Console.md)
 39. [Sidebar Navigation](https://github.com/kernjackson/SpacePod/blob/758a6c06a95e4cc0a8cc9ffeb2e2f70c51a9c9c8/Notes/39%20Sidebar%20Navigation.md)
 40. [AsyncImage Auto-Reload](https://github.com/kernjackson/SpacePod/blob/6a435cc1abd56b0563973ce0473ad40b657808bf/Notes/40%20AsyncImage%20Reload.md)
+41. [URLSession Get Image]
+42. [Save & Open Images]
+43. [CachedAsyncImage]
 
 ## Videos
 
