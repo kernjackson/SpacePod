@@ -3,8 +3,8 @@ import SwiftUI
 struct PodImageView: View {
     var url: URL?
     var body: some View {
-        if url != nil {
-            AsyncImage(url: url) { phase in
+        if let imageUrl = url {
+            CachedAsyncImage(url: imageUrl) { phase in
                 switch phase {
                 case .empty:                ProgressView()
                 case .success(let image):   ImageRowView(image: image)

@@ -42,6 +42,8 @@
 		EFD4327B27680B3000E3E658 /* File+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4327A27680B3000E3E658 /* File+Extensions.swift */; };
 		EFD4327D27680BEB00E3E658 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4327C27680BEB00E3E658 /* Data+Extensions.swift */; };
 		EFD4329227680CB200E3E658 /* SpacePodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4329127680CB200E3E658 /* SpacePodTests.swift */; };
+		EFE3EE59278DF1EE00768B2F /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3EE58278DF1EE00768B2F /* FileManager+Extensions.swift */; };
+		EFE3EE5B278DF27800768B2F /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3EE5A278DF27800768B2F /* UIImage+Extensions.swift */; };
 		EFE4FCE8278A3F6500ECE3BD /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE4FCE7278A3F6500ECE3BD /* SidebarView.swift */; };
 		EFED6BD827695D6C00C19797 /* 200-no-urls.json in Resources */ = {isa = PBXBuildFile; fileRef = EFED6BD727695D6C00C19797 /* 200-no-urls.json */; };
 		EFED6BDA276A319300C19797 /* 200-copyright-incorrect.json in Resources */ = {isa = PBXBuildFile; fileRef = EFED6BD9276A319200C19797 /* 200-copyright-incorrect.json */; };
@@ -117,6 +119,8 @@
 		EFD4328F27680CB200E3E658 /* SpacePodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacePodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD4329127680CB200E3E658 /* SpacePodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePodTests.swift; sourceTree = "<group>"; };
 		EFD432982768237C00E3E658 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EFE3EE58278DF1EE00768B2F /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
+		EFE3EE5A278DF27800768B2F /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		EFE4FCE7278A3F6500ECE3BD /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		EFE4FCE9278A47B900ECE3BD /* 39 Sidebar Navigation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "39 Sidebar Navigation.md"; sourceTree = "<group>"; };
 		EFE819CD278618E100A4AEB6 /* 37 PodListView Refactor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "37 PodListView Refactor.md"; sourceTree = "<group>"; };
@@ -286,6 +290,8 @@
 				EF704C56276D79D700CE5485 /* DateDecodingStrategy+Extensions.swift */,
 				EF704C54276D790D00CE5485 /* DateFormatter+Extensions.swift */,
 				EFD4327A27680B3000E3E658 /* File+Extensions.swift */,
+				EFE3EE58278DF1EE00768B2F /* FileManager+Extensions.swift */,
+				EFE3EE5A278DF27800768B2F /* UIImage+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -421,12 +427,14 @@
 				EF0B5AE2275EEEDB0007329F /* SpacePodApp.swift in Sources */,
 				EF0B5AF2275EFD810007329F /* Network.swift in Sources */,
 				EF704C59276D7B5500CE5485 /* Date+Extensions.swift in Sources */,
+				EFE3EE59278DF1EE00768B2F /* FileManager+Extensions.swift in Sources */,
 				EF1D6A53277AAE6F009399FA /* Model.xcdatamodeld in Sources */,
 				EF1D6ADD277BCDC1009399FA /* Persistence.swift in Sources */,
 				EF704C55276D790D00CE5485 /* DateFormatter+Extensions.swift in Sources */,
 				EFD4327D27680BEB00E3E658 /* Data+Extensions.swift in Sources */,
 				EFA5EB042783B0C7005FA2BF /* WebLink.swift in Sources */,
 				EF0B5AF0275EFD6A0007329F /* Pod.swift in Sources */,
+				EFE3EE5B278DF27800768B2F /* UIImage+Extensions.swift in Sources */,
 				EF68F392276A83D6003A0BD9 /* PodListView.swift in Sources */,
 				EF704C6B27700F4D00CE5485 /* PodImageView.swift in Sources */,
 				EF704C6D2770102C00CE5485 /* ErrorView.swift in Sources */,
