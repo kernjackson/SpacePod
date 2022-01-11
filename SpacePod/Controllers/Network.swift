@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 struct url {
     static let api = "https://api.nasa.gov/planetary/apod"
@@ -28,9 +29,29 @@ class Network {
         }
     }
 
+    func getImage(url: URL) async -> UIImage? {
+        do {
+            let request = URLRequest(url: url)
+            log("🌎 request: " + request.debugDescription)
+            let (data, response) = try await URLSession.shared.data(for: request)
+            log("🌎 response: " + response.debugDescription)
+            return UIImage(data: data)
+        }
+        catch {
+            log("🌎 error: " + error.localizedDescription)
+            return nil
+        }
+    }
+
     private func log(_ string: String) {
 #if DEBUG
         print(string.replacingOccurrences(of: apiKey, with: "?api_key=" + "YOUR_OBFUSCATED_API_KEY"))
 #endif
     }
+}
+
+func log(_ string: String) {
+#if DEBUG
+    print(string)
+#endif
 }
