@@ -69,24 +69,24 @@
 		EF0B5AEF275EFD6A0007329F /* Pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod.swift; sourceTree = "<group>"; };
 		EF0B5AF1275EFD810007329F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		EF1D6A52277AAE6F009399FA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		EF1D6A54277AAFDC009399FA /* 27 CoreData Model.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "27 CoreData Model.md"; sourceTree = "<group>"; };
+		EF1D6A54277AAFDC009399FA /* 27 CoreData Model.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "27 CoreData Model.md"; sourceTree = "<group>"; };
 		EF1D6ADC277BCDC1009399FA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		EF1D6ADE277BCF67009399FA /* 28 CoreData Persistence.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "28 CoreData Persistence.md"; sourceTree = "<group>"; };
-		EF1D6ADF277BD521009399FA /* 29 CodingKeys.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "29 CodingKeys.md"; sourceTree = "<group>"; };
-		EF1D6AE0277BDDAF009399FA /* 30 GET by Date.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "30 GET by Date.md"; sourceTree = "<group>"; };
-		EF1D6AE1277BE525009399FA /* 31 Required Init.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "31 Required Init.md"; sourceTree = "<group>"; };
-		EF2215EC27792DE60046E474 /* 26 AccentColor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "26 AccentColor.md"; sourceTree = "<group>"; };
-		EF279CF8277284BA00A74296 /* 22 Multiple Previews.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "22 Multiple Previews.md"; sourceTree = "<group>"; };
-		EF279CF92772875C00A74296 /* 21 SplitView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "21 SplitView.md"; sourceTree = "<group>"; };
-		EF279CFA2772878000A74296 /* 20 Video Thumbnails.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "20 Video Thumbnails.md"; sourceTree = "<group>"; };
-		EF279CFB2772881300A74296 /* 19 AsyncImagePhase.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "19 AsyncImagePhase.md"; sourceTree = "<group>"; };
-		EF279CFC2772885A00A74296 /* 18 Decode & Format Dates.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "18 Decode & Format Dates.md"; sourceTree = "<group>"; };
-		EF279CFD2772887C00A74296 /* 17 App Secrets.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "17 App Secrets.md"; sourceTree = "<group>"; };
-		EF2C91C02773FE60002BBCED /* 23 Obfuscated Logging.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "23 Obfuscated Logging.md"; sourceTree = "<group>"; };
-		EF2C91C127740837002BBCED /* 24 Infinite List.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "24 Infinite List.md"; sourceTree = "<group>"; };
+		EF1D6ADE277BCF67009399FA /* 28 CoreData Persistence.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "28 CoreData Persistence.md"; sourceTree = "<group>"; };
+		EF1D6ADF277BD521009399FA /* 29 CodingKeys.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "29 CodingKeys.md"; sourceTree = "<group>"; };
+		EF1D6AE0277BDDAF009399FA /* 30 GET by Date.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "30 GET by Date.md"; sourceTree = "<group>"; };
+		EF1D6AE1277BE525009399FA /* 31 Required Init.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "31 Required Init.md"; sourceTree = "<group>"; };
+		EF2215EC27792DE60046E474 /* 26 AccentColor.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "26 AccentColor.md"; sourceTree = "<group>"; };
+		EF279CF8277284BA00A74296 /* 22 Multiple Previews.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "22 Multiple Previews.md"; sourceTree = "<group>"; };
+		EF279CF92772875C00A74296 /* 21 SplitView.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "21 SplitView.md"; sourceTree = "<group>"; };
+		EF279CFA2772878000A74296 /* 20 Video Thumbnails.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "20 Video Thumbnails.md"; sourceTree = "<group>"; };
+		EF279CFB2772881300A74296 /* 19 AsyncImagePhase.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "19 AsyncImagePhase.md"; sourceTree = "<group>"; };
+		EF279CFC2772885A00A74296 /* 18 Decode & Format Dates.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "18 Decode & Format Dates.md"; sourceTree = "<group>"; };
+		EF279CFD2772887C00A74296 /* 17 App Secrets.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "17 App Secrets.md"; sourceTree = "<group>"; };
+		EF2C91C02773FE60002BBCED /* 23 Obfuscated Logging.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "23 Obfuscated Logging.md"; sourceTree = "<group>"; };
+		EF2C91C127740837002BBCED /* 24 Infinite List.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "24 Infinite List.md"; sourceTree = "<group>"; };
 		EF2C91C227740E35002BBCED /* Array+Uniqued.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Uniqued.swift"; sourceTree = "<group>"; };
-		EF3F43022787C76700020C10 /* 38 Debugging with Console.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "38 Debugging with Console.md"; sourceTree = "<group>"; };
-		EF5EFAD627825DB900030154 /* 35 Web Links.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "35 Web Links.md"; sourceTree = "<group>"; };
+		EF3F43022787C76700020C10 /* 38 Debugging with Console.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "38 Debugging with Console.md"; sourceTree = "<group>"; };
+		EF5EFAD627825DB900030154 /* 35 Web Links.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "35 Web Links.md"; sourceTree = "<group>"; };
 		EF68F38F276A837C003A0BD9 /* PodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodDetailView.swift; sourceTree = "<group>"; };
 		EF68F391276A83D6003A0BD9 /* PodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodListView.swift; sourceTree = "<group>"; };
 		EF704C48276D614400CE5485 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -111,29 +111,30 @@
 		EF71163E2766C662002D5287 /* get-pods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-pods.json"; sourceTree = "<group>"; };
 		EF71163F2766C662002D5287 /* 200-no-copyright.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-copyright.json"; sourceTree = "<group>"; };
 		EF71164C2766CB17002D5287 /* 429-over-rate-limit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "429-over-rate-limit.json"; sourceTree = "<group>"; };
+		EF7F94C227970BEB009BD44D /* 44 Markdown Highlighting.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "44 Markdown Highlighting.md"; sourceTree = "<group>"; };
 		EFA5EB032783B0C7005FA2BF /* WebLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLink.swift; sourceTree = "<group>"; };
-		EFA8679B278B9938002609ED /* 40 AsyncImage Reload.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "40 AsyncImage Reload.md"; sourceTree = "<group>"; };
-		EFB0C0B2277F5E14001F8EE0 /* 33 CoreData Save & Fetch.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "33 CoreData Save & Fetch.md"; sourceTree = "<group>"; };
-		EFB0C0B3277F6284001F8EE0 /* 34 CoreData Unique Attributes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "34 CoreData Unique Attributes.md"; sourceTree = "<group>"; };
+		EFA8679B278B9938002609ED /* 40 AsyncImage Reload.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "40 AsyncImage Reload.md"; sourceTree = "<group>"; };
+		EFB0C0B2277F5E14001F8EE0 /* 33 CoreData Save & Fetch.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "33 CoreData Save & Fetch.md"; sourceTree = "<group>"; };
+		EFB0C0B3277F6284001F8EE0 /* 34 CoreData Unique Attributes.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "34 CoreData Unique Attributes.md"; sourceTree = "<group>"; };
 		EFD4327A27680B3000E3E658 /* File+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "File+Extensions.swift"; sourceTree = "<group>"; };
 		EFD4327C27680BEB00E3E658 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 		EFD4328F27680CB200E3E658 /* SpacePodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacePodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD4329127680CB200E3E658 /* SpacePodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePodTests.swift; sourceTree = "<group>"; };
-		EFD432982768237C00E3E658 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EFD432982768237C00E3E658 /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EFE3EE58278DF1EE00768B2F /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
 		EFE3EE5A278DF27800768B2F /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		EFE3EE60278E050E00768B2F /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
-		EFE3EE62278E098D00768B2F /* 41 URLSession Get Image.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "41 URLSession Get Image.md"; sourceTree = "<group>"; };
-		EFE3EE63278E09B700768B2F /* 43 CachedAsyncImage.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "43 CachedAsyncImage.md"; sourceTree = "<group>"; };
-		EFE3EE64278E09D900768B2F /* 42 Save & Open Images.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "42 Save & Open Images.md"; sourceTree = "<group>"; };
+		EFE3EE62278E098D00768B2F /* 41 URLSession Get Image.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "41 URLSession Get Image.md"; sourceTree = "<group>"; };
+		EFE3EE63278E09B700768B2F /* 43 CachedAsyncImage.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "43 CachedAsyncImage.md"; sourceTree = "<group>"; };
+		EFE3EE64278E09D900768B2F /* 42 Save & Open Images.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "42 Save & Open Images.md"; sourceTree = "<group>"; };
 		EFE4FCE7278A3F6500ECE3BD /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
-		EFE4FCE9278A47B900ECE3BD /* 39 Sidebar Navigation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "39 Sidebar Navigation.md"; sourceTree = "<group>"; };
-		EFE819CD278618E100A4AEB6 /* 37 PodListView Refactor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "37 PodListView Refactor.md"; sourceTree = "<group>"; };
-		EFEABEAC2774FA6E009E0214 /* 25 Multitasking.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "25 Multitasking.md"; sourceTree = "<group>"; };
+		EFE4FCE9278A47B900ECE3BD /* 39 Sidebar Navigation.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "39 Sidebar Navigation.md"; sourceTree = "<group>"; };
+		EFE819CD278618E100A4AEB6 /* 37 PodListView Refactor.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "37 PodListView Refactor.md"; sourceTree = "<group>"; };
+		EFEABEAC2774FA6E009E0214 /* 25 Multitasking.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "25 Multitasking.md"; sourceTree = "<group>"; };
 		EFED6BD727695D6C00C19797 /* 200-no-urls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-urls.json"; sourceTree = "<group>"; };
 		EFED6BD9276A319200C19797 /* 200-copyright-incorrect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-copyright-incorrect.json"; sourceTree = "<group>"; };
-		EFF505522784E87000758494 /* 36 GET Newest & Oldest.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "36 GET Newest & Oldest.md"; sourceTree = "<group>"; };
-		EFFBBD12277E578E00A9E858 /* 32 CoreData Decodable.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "32 CoreData Decodable.md"; sourceTree = "<group>"; };
+		EFF505522784E87000758494 /* 36 GET Newest & Oldest.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "36 GET Newest & Oldest.md"; sourceTree = "<group>"; };
+		EFFBBD12277E578E00A9E858 /* 32 CoreData Decodable.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = "32 CoreData Decodable.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +240,7 @@
 				EFE3EE62278E098D00768B2F /* 41 URLSession Get Image.md */,
 				EFE3EE64278E09D900768B2F /* 42 Save & Open Images.md */,
 				EFE3EE63278E09B700768B2F /* 43 CachedAsyncImage.md */,
+				EF7F94C227970BEB009BD44D /* 44 Markdown Highlighting.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";

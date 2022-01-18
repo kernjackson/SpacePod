@@ -51,6 +51,7 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 41. [URLSession Get Image](https://github.com/kernjackson/SpacePod/blob/0c0994d67c89971720cf38872efc8009822370e5/Notes/41%20URLSession%20Get%20Image.md)
 42. [Save & Open Images](https://github.com/kernjackson/SpacePod/blob/0c0994d67c89971720cf38872efc8009822370e5/Notes/42%20Save%20&%20Open%20Images.md)
 43. [CachedAsyncImage](https://github.com/kernjackson/SpacePod/blob/0c0994d67c89971720cf38872efc8009822370e5/Notes/43%20CachedAsyncImage.md)
+44. [Markdown Highlighting]
 
 ## Videos
 

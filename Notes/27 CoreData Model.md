@@ -6,7 +6,7 @@ So far we've just been hitting the API anytime we need to display some day. Let'
 
 ## Problem
 
-We're hitting the API everytime we need some data.
+We're hitting the API every time we need some data.
 
 ## Steps
 
