@@ -22,16 +22,27 @@ struct CachedAsyncImage<Content>: View where Content: View {
     }
 
     var body: some View {
-        if let cached = FileManager.loadImage(name: url.lastPathComponent) ?? image {
+        if let cached = FileManager.loadImage(name: url.fileName) ?? image {
             content(.success(Image(uiImage: cached)))
                 .animation(transaction.animation, value: cached)
         } else {
             content(.empty)
                 .task {
                     image = await Network.shared.getImage(url: url)
-                    image?.saveJPG(name: url.lastPathComponent)
+                    image?.saveJPG(name: url.fileName)
                 }
         }
+    }
+}
+
+extension URL {
+    /// Returns the name of the linked file. If the last component is shorter than 6 characters return the second to last component
+    var fileName: String {
+        let one = self.lastPathComponent
+        let two = self.deletingLastPathComponent().lastPathComponent
+
+        let name = one.count < 6 ? two + ".jpg" : one
+        return name
     }
 }
 
