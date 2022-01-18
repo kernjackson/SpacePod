@@ -9,32 +9,25 @@ struct PodListView: View {
     var pods: FetchedResults<Pod>
 
     var body: some View {
-
-        switch pods {
-        case nil: loadingView
-        default:  listView
-        }
-    }
-
-    var loadingView: some View {
-        Text("Fetching Pods...")
-            .task {
-                if pods.isEmpty { await getMore() }
-            }
-    }
-
-    var listView: some View {
         List {
             ForEach(pods, id: \.id) { pod in
                 PodDetailView(pod: pod)
             }
-            Section {
-                Button("GET More") { Task { await getMore() } }
-            }
+            loadingView
         }
         .navigationBarTitleDisplayMode(.inline)
         .refreshable {
-            await getNew()
+            await getNewest()
+        }
+    }
+
+    var loadingView: some View {
+        HStack {
+            ProgressView()
+            Text(" Fetching Pods...")
+        }
+        .task {
+            await getMore()
         }
     }
 }
@@ -51,7 +44,7 @@ struct PodListView_Previews: PreviewProvider {
 // MARK: - Network
 
 extension PodListView {
-    private func getNew() async {
+    private func getNewest() async {
         guard let from = pods.first?.date else { return }
         let to = Date()
         let compare = Calendar.current.compare(from, to: to, toGranularity: .day)
@@ -64,7 +57,7 @@ extension PodListView {
 
     private func getMore() async {
         let to = pods.last?.date?.previous(1) ?? Date()
-        let from = to.previous(30)
+        let from = to.previous(10)
         if await Network().getPods(from, to) != nil {
             PersistenceController.shared.save()
         }
