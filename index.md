@@ -1,37 +1,71 @@
-## Welcome to GitHub Pages
+# SpacePod
 
-You can use the [editor on GitHub](https://github.com/kernjackson/SpacePod/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+We'll progressively build a small SwiftUI app that displays the NASA photo of the day. Each installment (commit, post, video) will be broken down into the smallest piece of work that I can imagine at the time. This repo will be the most concise part of the series as the videos will be strictly one take each.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![light and dark jupiter](https://user-images.githubusercontent.com/6172851/148271673-d38ee9ad-999f-449e-8134-d2e3b93a5c6f.jpeg)
 
-### Markdown
+[kern.micro.blog](https://kern.micro.blog)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Installments
 
-```markdown
-Syntax highlighted code block
+01. Project Overview [YouTube](https://youtu.be/NLQhP-35sbY)
+02. Try Await URLSession [YouTube](https://youtu.be/oQU5sept-QY)
+03. Pod Model with Paw and Ducky [YouTube](https://youtu.be/2kADKAKf8xM)
+04. Pod Default [YouTube](https://youtu.be/0V2ZKxlsGhs)
+05. MVP SwiftUI List View [YouTube](https://youtu.be/KMz0HdD3DTI)
+06. AsyncImage [YouTube](https://youtu.be/GogrWQ5blCU)
+07. Task GET Pod [YouTube](https://youtu.be/dboEB8_qOUQ)
+08. Push to GitHub [YouTube](https://youtu.be/2c9Mg6vyuco)
+09. Placeholder Icon with Bakery [YouTube](https://youtu.be/j-CJ0YyPDUo)
+10. Optionals [YouTube](https://youtu.be/WGtPWVPJgzc)
+11. Exploring the API with Paw [YouTube](https://youtu.be/3V7MuFhMjgU)
+12. Json Payloads with Curl and Python [YouTube](https://youtu.be/J7WI3QqQJEM)
+13. From JSON to Data to Pod with Tests [YouTube](https://youtu.be/44ZOROuZJ9U)
+14. Adding a Read Me Markdown File [YouTube](https://youtu.be/OSSodYCbdIY)
+15. Decoding and Testing Optional Arrays and Properties [YouTube](https://youtu.be/1WsIX7cRD5w)
+16. Display Pods with SwiftUI's NavigationView, List, and NavigationLink [YouTube](https://youtu.be/Ca5UaZXeD-0) Bug Fixes [YouTube](https://youtu.be/g48Hne1_nVg)
+17. [Adding and Ignoring App Secrets](https://github.com/kernjackson/SpacePod/blob/8247888437c445d8bad0338e2dd49e200e527db4/Notes/17%20App%20Secrets.md)
+18. [Decoding & Formatting Dates](https://github.com/kernjackson/SpacePod/blob/8247888437c445d8bad0338e2dd49e200e527db4/Notes/18%20Decode%20&%20Format%20Dates.md)
+19. [AsyncImagePhase, Resizing, and Scaling](https://github.com/kernjackson/SpacePod/blob/5216cd200e09d9c8556535e7c32f3be1202dec08/Notes/19%20AsyncImagePhase.md)
+20. [Displaying Optional Video Thumbnails](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/20%20Video%20Thumbnails.md)
+21. [SwiftUI 'Split View'](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/21%20SplitView.md)
+22. [Multiple Previews](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/22%20Multiple%20Previews.md)
+23. [Obfuscated Logging](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/23%20Obfuscated%20Logging.md)
+24. [Infinite List](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/24%20Infinite%20List.md)
+25. [Multitasking Support](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/25%20Multitasking.md)
+26. [AccentColor](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/26%20AccentColor.md)
+27. [CoreData Model](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/27%20CoreData%20Model.md)
+28. [CoreData Persistence](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/28%20CoreData%20Persistence.md)
+29. [CodingKeys](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/29%20CodingKeys.md)
+30. [GET by Date](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/30%20GET%20by%20Date.md)
+31. [Required Init](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/31%20Required%20Init.md)
+32. [CoreData Decodable](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/32%20CoreData%20Decodable.md)
+33. [CoreData Save & Fetch](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/33%20CoreData%20Save%20&%20Fetch.md)
+34. [CoreData Unique Attributes](https://github.com/kernjackson/SpacePod/blob/1d96003653fcabddf7a098ab1be591ba778f99ea/Notes/34%20CoreData%20Unique%20Attributes.md)
+35. [SwiftUI Web Links](https://github.com/kernjackson/SpacePod/blob/73fdb34f9550b6cc7c715eb67754c372eb31f58e/Notes/35%20Web%20Links.md)
+36. [URLSession GET New & Old](https://github.com/kernjackson/SpacePod/blob/62dfa9244b0396695a3f730a975fa39c349d4d3b/Notes/36%20GET%20Newest%20&%20Oldest.md)
+37. [Pod List View Refactor](https://github.com/kernjackson/SpacePod/blob/73fdb34f9550b6cc7c715eb67754c372eb31f58e/Notes/37%20PodListView%20Refactor.md)
+38. [Debugging with Console](https://github.com/kernjackson/SpacePod/blob/b46b002a232376eea46a5ef62d05c16ead8dbdc0/Notes/38%20Debugging%20with%20Console.md)
+39. [Sidebar Navigation](https://github.com/kernjackson/SpacePod/blob/758a6c06a95e4cc0a8cc9ffeb2e2f70c51a9c9c8/Notes/39%20Sidebar%20Navigation.md)
+40. [AsyncImage Auto-Reload](https://github.com/kernjackson/SpacePod/blob/6a435cc1abd56b0563973ce0473ad40b657808bf/Notes/40%20AsyncImage%20Reload.md)
+41. [URLSession Get Image](https://github.com/kernjackson/SpacePod/blob/0c0994d67c89971720cf38872efc8009822370e5/Notes/41%20URLSession%20Get%20Image.md)
+42. [Save & Open Images](https://github.com/kernjackson/SpacePod/blob/0c0994d67c89971720cf38872efc8009822370e5/Notes/42%20Save%20&%20Open%20Images.md)
+43. [CachedAsyncImage](https://github.com/kernjackson/SpacePod/blob/0c0994d67c89971720cf38872efc8009822370e5/Notes/43%20CachedAsyncImage.md)
+44. [Markdown Highlighting]
 
-# Header 1
-## Header 2
-### Header 3
+## Videos
 
-- Bulleted
-- List
+[YouTube Playlist](https://www.youtube.com/playlist?list=PLWebBadhYmf9NRIJXE_hBGTtyFwrxrXJ3)
 
-1. Numbered
-2. List
+## Apps Used
 
-**Bold** and _Italic_ and `Code` text
+- [Bakery - Simple Icon Creator](https://apps.apple.com/ne/app/bakery-simple-icon-maker/id1575220747?mt=12)
+- [Core Data Lab](https://betamagic.nl/products/coredatalab.html)
+- [KeyCastr](https://github.com/keycastr/keycastr)
+- [Paw](https://paw.cloud)
+- [Xcode](https://developer.apple.com/xcode)
 
-[Link](url) and ![Image](src)
-```
+## Resources
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kernjackson/SpacePod/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html)
+- [NASA APIs](https://api.nasa.gov)
