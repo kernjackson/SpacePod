@@ -4,6 +4,7 @@ We'll progressively build a small SwiftUI app that displays the NASA photo of th
 
 ![light and dark jupiter](https://user-images.githubusercontent.com/6172851/148271673-d38ee9ad-999f-449e-8134-d2e3b93a5c6f.jpeg)
 
+[kerntronics.com](https://kerntronics.com)
 [kern.micro.blog](https://kern.micro.blog)
 
 ## Installments
